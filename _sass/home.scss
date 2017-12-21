@@ -1,8 +1,9 @@
 #portfolio {
-padding-left: 6em;
+   padding-left: 6em;
 }
 
-#portfolio > div {
-padding: 1em;
-display: inline-block;
+#portfolio .project {
+   padding: 1em;
+   display: inline-block;
+   size: 50%;
 }

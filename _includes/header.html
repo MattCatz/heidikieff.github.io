@@ -1,10 +1,8 @@
-<div id="header">
-   <span id="header-logo">
-   <img src="http://via.placeholder.com/100x100"></img>
-   </span>
-   <span id="header-menu">
-      <h3><a href="#">Projects</a></h3>
-      <h3><a href="#">About</a></h3>
-      <h3><a href="#">Contact</a></h3>
-   </span>
-</div>
+<header>
+   <img id="logo" src="assets/img/logo.png"></img>
+   <nav>
+      <h3><a href="/" {% if include.selected == "projects"%} class="selected" {%endif%}>Projects</a></h3>
+      <h3><a href="/about.html" {% if include.selected == "about"%} class="selected" {%endif%}>About</a></h3>
+      <h3><a href="/contact.html" {% if include.selected == "contact"%} class="selected" {%endif%}>Contact</a></h3>
+   </nav>
+</header>
