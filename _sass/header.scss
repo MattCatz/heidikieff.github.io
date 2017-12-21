@@ -1,8 +1,21 @@
-#header-menu {
+header nav {
    float: right;
 }
 
-#header-menu > h3 {
+header h3 {
    display: inline;
    padding-right: 1em;
+}
+
+header a {
+   color: black;
+   text-decoration: none;
+}
+
+header nav .selected {
+   text-decoration: line-through;
+}
+
+header #logo {
+   height: 6em;
 }
