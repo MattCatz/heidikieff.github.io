@@ -7,10 +7,9 @@
    <body>
    {% include header.html selected="projects"%}
    <div id="portfolio">
-      {% for i in (1..10) %}
-         <div class="project">
-            <img src="http://via.placeholder.com/600x600"/>
-         </div>
+      {{site.url}}
+      {% for i in site.projects %}
+      <a href="{{i.url}}"><img class="project" src="/assets/img/{{i.thumbnail}}"/></a>
       {% endfor %}
    </div>
    </body>
