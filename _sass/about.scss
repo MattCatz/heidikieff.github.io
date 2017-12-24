@@ -1,12 +1,21 @@
 article {
-   margin-left: 13vw;
-   margin-top: 10vh;
+   margin-left: 16vw;
+   margin-top: 6vh;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
 }
 
-article #bio {
+#portrait {
+   order: 0;
+   min-block-size: 47vw;
+   max-block-size: 75vw;
+}
+
+#bio {
+   flex-grow: 1;
    display: inline-block;
    width: 20vw;
    margin-left: 5vw;
-   margin-top: 7vh;
-   vertical-align: top;
+   margin-right: 5vw;
 }
