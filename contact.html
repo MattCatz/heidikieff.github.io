@@ -1,30 +1,22 @@
 ---
+layout: default
 ---
 
-<!DOCTYPE html>
-<html>
-   <head>
-      <title>{{page.title}}</title>
-      <link rel="stylesheet" type="text/css" href="/css/main.css"/>
-   </head>
-   <body>
-   {% include header.html selected="contact"%}
-   <article>
-      <form>
-         <span class="split">
-         <label>first name</label>
-         <input type="text" name="firstname">
-         <label>last name</label>
-         <input type="text" name="lastname">
-         </span>
-         <label>email addresse*</label>
-         <input type="text" name="emailadress">
-         <label>subject*</label>
-         <input type="text" name="subject">
-         <label>message*</label>
-         <textarea type="text" name="message"></textarea>
-      </form>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dictum pellentesque mauris. Sed in condimentum orci. Aliquam at purus vel ante tincidunt dictum ac et orci. Nulla gravida malesuada tellus, eget varius velit interdum sed. Sed mollis dui eget posuere maximus. Donec ipsum lacus, pretium non ornare in, posuere id enim. Nunc sit amet commodo tortor, nec pretium nisi.</p>
-   </article>
-   </body>
-</html>
+{% include header.html selected="contact"%}
+<article>
+   <form>
+      <span class="split">
+      <label>first name</label>
+      <input type="text" name="firstname">
+      <label>last name</label>
+      <input type="text" name="lastname">
+      </span>
+      <label>email addresse*</label>
+      <input type="text" name="emailadress">
+      <label>subject*</label>
+      <input type="text" name="subject">
+      <label>message*</label>
+      <textarea type="text" name="message"></textarea>
+   </form>
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dictum pellentesque mauris. Sed in condimentum orci. Aliquam at purus vel ante tincidunt dictum ac et orci. Nulla gravida malesuada tellus, eget varius velit interdum sed. Sed mollis dui eget posuere maximus. Donec ipsum lacus, pretium non ornare in, posuere id enim. Nunc sit amet commodo tortor, nec pretium nisi.</p>
+</article>
