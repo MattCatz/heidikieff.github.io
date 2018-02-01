@@ -1,16 +1,9 @@
 ---
 layout: project
-title: "Record Project"
+title: "Record Promotion"
 thumbnail: "record-thumbnail.png"
 ---
 
-# Lorem ipsum dolor
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+Objective: Investigate how type and image can be paired to create rhythm and balance in an album promotional piece. The goal is to create a package design that holds a 45 record, includes the record sleeve + booklet for your chosen musician’s album or concert series.
 
-## Lorem ipsum dolor 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
--Lorem ipsum dolor sit amet 
--consectetur adipiscing elit 
-
-### Lorem ipsum dolor sed
-do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam Lorem ipsum dolor Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Concept: Since this event isn’t cheap, I wanted my record design to be intricate, to pose as a grand invitation to this secret show. I wanted my design to really echo the bands behavior: grungy, punk, alternative, and crazy. I’m usually one for delicate typography, and a very structured design, but I wanted to go in a more organic direction with my 45 design. When the buyer looks at my record they shouldn’t feel comfortable, like how you shouldn’t feel comfortable at a Cage the Elephant concert. I like this idea of a handwritten type that resembles a child’s handwriting, even though this band isn’t for children ears. I also want to include these wow factors that surprise the viewer and create that excitement for their invitation to the secret show.
