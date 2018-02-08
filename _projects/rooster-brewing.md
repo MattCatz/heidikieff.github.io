@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Rooster Brewing"
-thumbnail: "zoo-thumbnail.png"
+thumbnail: "beer.png"
 ---
 Objective: Branding for a Brewery called “Rooster Brewery.” Their first beet is called Brown Ale and they want the label design to represent their company.
 
