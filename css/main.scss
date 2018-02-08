@@ -5,6 +5,10 @@ img {
 vertical-align: bottom;
 }
 
+body {
+   font-family: 'Roboto', sans-serif;
+}
+
 @import "header";
 @import "home";
 @import "about";
