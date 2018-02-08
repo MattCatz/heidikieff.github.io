@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "House of Cards"
-thumbnail: "house-of-cards-thumbnail.png"
+thumbnail: "house-of-cards.gif"
 ---
 
 Objective: Dive into a selected Emigre type face learning its origin and the different parts of a letterform to form a deck of cards. Puzzler also must be used in each card design.
