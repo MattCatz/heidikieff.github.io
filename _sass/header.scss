@@ -8,14 +8,21 @@ header h3 {
 }
 
 header a {
-   color: black;
+   color: grey;
    text-decoration: none;
 }
 
 header nav .selected {
-   text-decoration: line-through;
+   color: black;
 }
 
-header #logo {
-   width: 16vw;
+header h2 {
+   display: inline;
+}
+
+header {
+   height: 7vh;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
 }
