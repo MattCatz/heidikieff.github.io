@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Record Promotion"
-thumbnail: "record-thumbnail.png"
+thumbnail: "record.png"
 ---
 
 Objective: Investigate how type and image can be paired to create rhythm and balance in an album promotional piece. The goal is to create a package design that holds a 45 record, includes the record sleeve + booklet for your chosen musician’s album or concert series.
