@@ -3,5 +3,10 @@ layout: default
 ---
 
 {% include header.html selected="projects"%}
-<img src="/assets/img/{{page.thumbnail}}"/>
-{{page.content}}
+<article id="project-grid">
+   {% for section in page.sections %}
+   <section class="project-section">
+      {% include {{ section }} %}
+   </section>
+   {% endfor %}
+</article>
