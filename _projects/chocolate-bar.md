@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: "404"
 title: "Chocolate Bar Project"
 thumbnail: "ChocolateEyeGIF.gif"
 sections:

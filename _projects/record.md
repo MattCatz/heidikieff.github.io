@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: "404" 
 title: "Record Promotion"
 thumbnail: "record.png"
 ---
