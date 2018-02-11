@@ -1,4 +1,4 @@
-#project {
+.project-grid {
    display: grid;
    grid-template-rows: auto;
    grid-template-columns: 1fr;
@@ -6,10 +6,12 @@
 }
 
 @media (min-width: 32em) {
-   #project {
+   .project-grid {
       grid-template-columns: 1fr 1fr;
       grid-template-areas: "a a" "b b" "c d" "e e";
    }
+
+   
 }
 
 #modula-svg {
@@ -27,7 +29,7 @@
 
 #modula-head {
    grid-area: a;
-   height: 53vh;
+   height: 56vh;
    display: flex;
 }
 
@@ -70,3 +72,5 @@
    background: url("/assets/img/modula.jpg");
    background-size: cover;
 }
+
+
