@@ -2,14 +2,16 @@
 ---
 
 img {
-vertical-align: bottom;
+   vertical-align: bottom;
 }
 
 body {
+   margin: 0px;
    font-family: 'Roboto', sans-serif;
 }
 
 @import "header";
 @import "home";
 @import "about";
-@import "contact"
+@import "contact";
+@import "project";

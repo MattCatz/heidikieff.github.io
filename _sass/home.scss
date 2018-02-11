@@ -1,18 +1,25 @@
-body {
+header, #portfolio {
    padding-left: 3em;
    padding-right: 3em;
 }
 
 #portfolio {
    display: grid;
-   grid-row-gap: 2em;
+   grid-gap: 2em;
    justify-items: center;
-   grid-template-columns: 1fr 1fr;
+   grid-template-columns: 1fr;
+}
+
+@media (min-width: 30em) {
+#portfolio {
+   grid-template-columns: repeat(auto-fill, minmax(25em, 1fr));
+}
 }
 
 .project {
   position: relative;
-  max-width: 46em;
+  width: 100%;
+  //max-width: 50em;
   justify-self: center;
 }
 
