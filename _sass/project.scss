@@ -1,23 +1,72 @@
-#project-grid {
+#project {
    display: grid;
+   grid-template-rows: auto;
    grid-template-columns: 1fr;
+   grid-template-areas: "a" "b" "c" "d" "e";
 }
 
-#project-grid section {
+@media (min-width: 32em) {
+   #project {
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas: "a a" "b b" "c d" "e e";
+   }
+}
+
+#modula-svg {
+   grid-area: d;
+   background: #ee3f23;
+   padding: 3em;
+   box-sizing: border-box;
    height: 100vh;
+}
+
+#modula-svg svg {
+   width: 100%;
+   height: 100%;
+}
+
+#modula-head {
+   grid-area: a;
+   height: 53vh;
+   display: flex;
+}
+
+#modula-head svg {
+   flex-grow: 1;
+}
+
+#modula-description {
+   grid-area: b;
+   background-color: #f9a220;
+   padding: 1em 3em 3em 1em; 
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: column;
    width: 100%;
 }
 
-#project-grid #project-header {
-   height: 60%;
+#modula-description h1 {
+   font-family: "modula-tall",sans-serif;
+   font-size: 5rem;
+   -webkit-margin-before: .2em;
+   -webkit-margin-after: 0;
+   letter-spacing: 0.04em;
 }
 
-#project-grid #project-description {
-   background-color: #f9a220;
-   padding-left: 30em;
-   padding-right: 30em;
-   padding-top: 3em;
-   padding-bottom: 3em;
-   box-sizing: border-box;
-   height: 40%;
+#modula-half {
+   grid-area: c;
+   height: 100vh;
+   background: url("/assets/img/modula-half.jpg");
+   background-size: cover;
+}
+
+#modula-half img {
+   width: 100%;
+}
+
+#modula-full {
+   grid-area: e;
+   height: 100vh;
+   background: url("/assets/img/modula.jpg");
+   background-size: cover;
 }
