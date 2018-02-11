@@ -8,6 +8,7 @@ header, #portfolio {
    grid-gap: 2em;
    justify-items: center;
    grid-template-columns: 1fr;
+   padding-bottom: 2em;
 }
 
 @media (min-width: 30em) {
