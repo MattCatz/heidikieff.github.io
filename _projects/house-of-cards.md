@@ -1,11 +1,11 @@
 ---
-layout: project
+layout: house-of-cards
 title: "House of Cards"
 thumbnail: "house-of-cards.gif"
 
 sections:
-   - project-head.html
-   - project-head.html
+   - project-head
+   - modula-split
 ---
 # HOUSE OF CARDS - MODULA
 ## PACKAGING DESIGN
