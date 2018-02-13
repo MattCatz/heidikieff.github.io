@@ -1,0 +1,35 @@
+#chocolate-bar-head {
+   grid-area: a;
+   height: 56vh;
+   display: flex;
+   background-color: #ee2336;
+}
+
+#chocolate-bar-head svg {
+   flex-grow: 1;
+}
+
+#chocolate-bar-description {
+   grid-area: b;
+   background-color: #0e2e3e;
+   padding: 1em 3em 3em 1em; 
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   color: #f2ebd9;
+}
+
+#chocolate-bar-description h1 {
+   font-family: "chocolate-bar-tall",sans-serif;
+   font-size: 5rem;
+   -webkit-margin-before: .2em;
+   -webkit-margin-after: 0;
+   letter-spacing: 0.04em;
+}
+
+#chocolate-bar-cards {
+   grid-area: c;
+   display: flex;
+   background-color: #f2ebd9
+}

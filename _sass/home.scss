@@ -1,6 +1,6 @@
 header, #portfolio {
-   padding-left: 3em;
-   padding-right: 3em;
+   padding-left: 7vw;
+   padding-right: 7vw;
 }
 
 #portfolio {
@@ -13,14 +13,13 @@ header, #portfolio {
 
 @media (min-width: 30em) {
 #portfolio {
-   grid-template-columns: repeat(auto-fill, minmax(25em, 1fr));
+   grid-template-columns: repeat(auto-fill, minmax(25vw, 1fr));
 }
 }
 
 .project {
   position: relative;
   width: 100%;
-  //max-width: 50em;
   justify-self: center;
 }
 

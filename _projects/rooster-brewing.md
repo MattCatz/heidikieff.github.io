@@ -4,6 +4,7 @@ title: "Rooster Brewing"
 thumbnail: "beer.png"
 ---
 # ROOSTER BREWING CO.
+{: .tk-brothers}
 
 ## PACKAGING DESIGN
 

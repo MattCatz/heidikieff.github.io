@@ -1,0 +1,13 @@
+.project-grid {
+   display: grid;
+   grid-template-rows: auto;
+   grid-template-columns: 1fr;
+   grid-template-areas: "a" "b" "c" "d" "e";
+}
+
+@media (min-width: 32em) {
+   .project-grid {
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas: "a a" "b b" "d c" "e e";
+   }   
+}

@@ -7,12 +7,21 @@ img {
 
 body {
    margin: 0px;
-   font-family: 'Roboto', sans-serif;
+   font-family: Tahoma,Verdana,sans-serif;
+}
+
+.courier-new {
+   font-family: "Courier New", sans-serif;
+}
+
+.fill-screen {
+   height: 100vh;
 }
 
 @import "header";
 @import "home";
 @import "about";
-@import "contact";
+@import "project";
 @import "modula";
 @import "rooster-brewery";
+@import "chocolate-bar";
