@@ -10,7 +10,6 @@
 }
 
 #brewery-description h1 {
-   font-family: "brothers",sans-serif;
    font-size: 4em;
    -webkit-margin-before: .2em;
    -webkit-margin-after: 0;
@@ -22,7 +21,7 @@
    grid-area: a;
    height: 59vh;
    display: flex;
-   background: #000000;
+   background: black;
    box-sizing: border-box;
    justify-content: center;
 }

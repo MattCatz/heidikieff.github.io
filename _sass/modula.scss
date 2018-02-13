@@ -1,25 +1,8 @@
-.project-grid {
-   display: grid;
-   grid-template-rows: auto;
-   grid-template-columns: 1fr;
-   grid-template-areas: "a" "b" "c" "d" "e";
-}
-
-@media (min-width: 32em) {
-   .project-grid {
-      grid-template-columns: 1fr 1fr;
-      grid-template-areas: "a a" "b b" "c d" "e e";
-   }
-
-   
-}
-
 #modula-svg {
    grid-area: d;
    background: #ee3f23;
    padding: 3em;
    box-sizing: border-box;
-   height: 100vh;
 }
 
 #modula-svg svg {
@@ -48,7 +31,6 @@
 }
 
 #modula-description h1 {
-   font-family: "modula-tall",sans-serif;
    font-size: 5rem;
    -webkit-margin-before: .2em;
    -webkit-margin-after: 0;
@@ -57,7 +39,6 @@
 
 #modula-half {
    grid-area: c;
-   height: 100vh;
    background: url("/assets/img/modula-half.jpg");
    background-size: cover;
 }
@@ -68,7 +49,6 @@
 
 #modula-full {
    grid-area: e;
-   height: 100vh;
    background: url("/assets/img/modula.jpg");
    background-size: cover;
 }
