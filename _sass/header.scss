@@ -5,11 +5,16 @@ header * {
 header h3 {
    padding-left: 1em;
    font-size: smaller;
+   align-self: center;
 }
 
 header a {
    color: black;
    text-decoration: none;
+}
+
+header nav {
+   margin-left: auto;
 }
 
 header h2 {
@@ -22,9 +27,9 @@ header h1 {
 }
 
 header {
-   height: 12vh;
+   min-height: 5em;
    display: flex;
-   align-items: center;
-   justify-content: space-between;
+   align-items: baseline;
+   justify-content: flex-start;
    max-width: 100%;
 }

@@ -18,6 +18,10 @@ body {
    height: 100vh;
 }
 
+//:root {
+   //font-size: calc(1vw + 1vh + .5vmin);
+//}
+
 @import "header";
 @import "home";
 @import "about";
