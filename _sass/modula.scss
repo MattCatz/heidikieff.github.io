@@ -1,8 +1,9 @@
 #modula-svg {
    grid-area: d;
    background: #ee3f23;
-   padding: 3em;
+   padding: 5vmin;
    box-sizing: border-box;
+   max-width: 100vw;
 }
 
 #modula-svg svg {
