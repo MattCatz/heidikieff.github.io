@@ -8,6 +8,4 @@ thumbnail: "beer.png"
 
 ## PACKAGING DESIGN
 
-Objective: Branding for a Brewery called “Rooster Brewery.” Their first beet is called Brown Ale and they want the label design to represent their company.
-
-Concept: Sticking to the rooster theme, but taking a modern take on it. Keeping the design very clean and using color to add a sense of excitement.
+Rooster Brewing Company is a pico brewery founded by Matthew Cather in his small apartment located in Auburn, Alabama. He calls himself a pico brewer because his brewing process is much smaller than your typical brewery. He took pride in his home brew, crafting it to his high standards, only to share it cold with his friends. He believes good beer starts even greater conversation. I wanted to design them an identity that represented that small southern grown business. Their first beer label "Brown ALe" is representative to his taste that starts those great conversations. 
