@@ -12,7 +12,4 @@ sections:
 
 ## PACKAGING DESIGN
 
-Objective: Dive into a selected Emigre type face learning its origin and the different parts of a letterform to form a deck of cards. Puzzler also must be used in each card design.
-
-Concept: To create a focus on the font Modula created by emigre. Modula was one of the first type face created on the new macintosh. I wanted to represent those qualities of the type
- face on the cards. Showing each part of the letterform and mixing it with a design that represented that new age of technology.
+Modula was one of the first font families designed on the new macintosh. Modula is firmly grounded in the idea of that these forms of computer fonts must result as an integral part of the digital process, not in spite of it. The computer was very crude when it came to producing subtle curves. I wanted my House of Cards to tell that story. Showing each letterform and pairing it with a composition that represented that new age of technology. 
