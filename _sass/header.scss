@@ -1,35 +1,50 @@
 header * {
-   display: inline-block;
+	display: inline-block;
 }
 
 header h3 {
-   padding-left: 1em;
-   font-size: smaller;
-   align-self: center;
+	font-size: smaller;
 }
 
 header a {
-   color: black;
-   text-decoration: none;
+	color: black;
+	text-decoration: none;
 }
 
 header nav {
-   margin-left: auto;
+	margin-left: auto;
 }
 
 header h2 {
-   padding-right: 1em;
-   font-size: smaller;
+	font-size: smaller;
+	padding-right: 1rem;
 }
 
 header h1 {
-   color: #eeb62f;
+	color: #eeb62f;
+	padding-right: 1rem;
+	-webkit-margin-after: 0em;
 }
 
 header {
-   min-height: 5em;
-   display: flex;
-   align-items: baseline;
-   justify-content: flex-start;
-   max-width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	font-size: 1rem;
+	align-items: baseline;
+}
+
+@media (min-width: 30em) {
+	header h1 {
+		-webkit-margin-after: 0.67em;
+	}
+
+	header {
+		align-items: center;     
+	}
+
+	header nav {
+		position: relative;
+		bottom: -0.4em;
+	}
 }

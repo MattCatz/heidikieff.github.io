@@ -2,12 +2,22 @@
    display: grid;
    grid-template-rows: auto;
    grid-template-columns: 1fr;
-   grid-template-areas: "a" "b" "c" "d" "e";
+}
+
+.span-half {
+   grid-column-end: span 1;
+}
+
+.span-full {
+   grid-column-end: span 1;
 }
 
 @media (min-width: 32em) {
    .project-grid {
       grid-template-columns: 1fr 1fr;
-      grid-template-areas: "a a" "b b" "d c" "e e";
+   }
+
+   .span-full {
+      grid-column-end: span 2;
    }   
 }
