@@ -1,5 +1,4 @@
 #brewery-description {
-   grid-area: b;
    background-color: #15373a;
    padding: 1em 3em 3em 1em;
    box-sizing: border-box;
@@ -18,7 +17,6 @@
 
 
 #brewery-head {
-   grid-area: a;
    height: 59vh;
    display: flex;
    background: black;
@@ -32,7 +30,6 @@
 }
 
 #brewery-cup {
-   grid-area: c;
    height: 100vh;
    background: url("/assets/img/brewery-cup.jpg");
    background-size: cover;
@@ -40,7 +37,6 @@
 }
 
 #brewery-shirt {
-   grid-area: d;
    height: 100vh;
    background: url("/assets/img/brewery-wood.jpg");
    background-size: cover;
@@ -59,7 +55,6 @@
 }
 
 #brewery-lable {
-   grid-area: e;
    box-sizing: border-box;
 }
 

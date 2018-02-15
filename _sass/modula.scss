@@ -1,18 +1,11 @@
 #modula-svg {
-   grid-area: d;
    background: #ee3f23;
    padding: 5vmin;
    box-sizing: border-box;
    max-width: 100vw;
 }
 
-#modula-svg svg {
-   width: 100%;
-   height: 100%;
-}
-
 #modula-head {
-   grid-area: a;
    height: 56vh;
    display: flex;
 }
@@ -22,7 +15,6 @@
 }
 
 #modula-description {
-   grid-area: b;
    background-color: #f9a220;
    padding: 1em 3em 3em 1em; 
    box-sizing: border-box;
@@ -39,7 +31,6 @@
 }
 
 #modula-half {
-   grid-area: c;
    background: url("/assets/img/modula-half.jpg");
    background-size: cover;
 }
@@ -49,7 +40,6 @@
 }
 
 #modula-full {
-   grid-area: e;
    background: url("/assets/img/modula.jpg");
    background-size: cover;
 }

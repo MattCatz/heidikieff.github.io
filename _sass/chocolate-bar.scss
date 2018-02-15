@@ -1,5 +1,4 @@
 #chocolate-bar-head {
-   grid-area: a;
    height: 56vh;
    display: flex;
    background-color: #ee2336;
@@ -10,7 +9,6 @@
 }
 
 #chocolate-bar-description {
-   grid-area: b;
    background-color: #0e2e3e;
    padding: 1em 3em 3em 1em; 
    box-sizing: border-box;
@@ -29,7 +27,6 @@
 }
 
 #chocolate-bar-cards {
-   grid-area: c;
    display: flex;
    background-color: #f2ebd9
 }
