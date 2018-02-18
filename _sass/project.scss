@@ -1,4 +1,4 @@
-.project-grid {
+.default-grid {
    display: grid;
    grid-template-rows: auto;
    grid-template-columns: 1fr;
@@ -13,7 +13,7 @@
 }
 
 @media (min-width: 32em) {
-   .project-grid {
+   .default-grid {
       grid-template-columns: 1fr 1fr;
    }
 
