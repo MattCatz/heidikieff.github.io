@@ -1,19 +1,13 @@
-article {
-   display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
+.about-grid {
+   grid-column-gap: 5rem;
 }
 
 #portrait {
-   order: 0;
-   min-block-size: 47vw;
-   max-block-size: 75vw;
+   max-height: 80vh;
+   min-height: 30rem;
+   float: right;
 }
 
 #bio {
-   flex-grow: 1;
-   display: inline-block;
-   width: 20vw;
-   margin-left: 5vw;
-   margin-right: 5vw;
+   max-width: 28rem;
 }
