@@ -2,18 +2,20 @@
 layout: project
 ---
 <article id="brewing-project" class="default-grid">
-   <section id="brewery-head" class="span-full">
+   <section id="brewery-head" class="span-full fill-screen centered">
       {% include brewery-head.svg %}
    </section>
-   <section id="brewery-description" class="span-full">
-      {{ page.content }}
+   <section id="brewery-description" class="project-description span-full centered">
+      <div class="text-area">
+         {{ page.content }}
+      </div>
    </section>
-   <section id="brewery-cup" class="span-half">
+   <section id="brewery-cup" class="span-half fill-screen">
    </section>
-   <section id="brewery-shirt" class="span-half">
+   <section id="brewery-shirt" class="span-half fill-screen centered">
       <img src="/assets/img/brewery-tshirt.png"></img>
    </section>
-   <section id="brewery-lable" class="span-full">
+   <section id="brewery-lable" class="span-full fill-screen">
       {% include brewery-label.svg %}
    </section>
 </article>

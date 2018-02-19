@@ -3,11 +3,11 @@
    padding: 5vmin;
    box-sizing: border-box;
    max-width: 100vw;
-}
 
-#modula-head {
-   height: 56vh;
-   display: flex;
+   svg {
+      width: 100%;
+      height: 100%;
+   }
 }
 
 #modula-head svg {
@@ -18,16 +18,6 @@
    background-color: #f9a220;
    padding: 1em 3em 3em 1em; 
    box-sizing: border-box;
-   display: flex;
-   flex-direction: column;
-   width: 100%;
-}
-
-#modula-description h1 {
-   font-size: 5rem;
-   -webkit-margin-before: .2em;
-   -webkit-margin-after: 0;
-   letter-spacing: 0.04em;
 }
 
 #modula-half {
@@ -44,4 +34,7 @@
    background-size: cover;
 }
 
-
+#modula-computer {
+   background: url("/assets/img/modula-computer.jpg");
+   background-size: cover;
+}

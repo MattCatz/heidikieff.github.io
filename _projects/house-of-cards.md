@@ -2,13 +2,8 @@
 layout: house-of-cards
 title: "House of Cards"
 thumbnail: "house-of-cards.gif"
-
-sections:
-   - project-head
-   - modula-split
 ---
 # HOUSE OF CARDS - MODULA
-{: .tk-modula-tall}
 
 ## PACKAGING DESIGN
 

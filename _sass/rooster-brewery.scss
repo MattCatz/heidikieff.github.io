@@ -2,63 +2,33 @@
    background-color: #15373a;
    padding: 1em 3em 3em 1em;
    box-sizing: border-box;
-   display: flex;
-   flex-direction: column;
-   width: 100%;
-   color: #efefce;
+   color: white;
 }
-
-#brewery-description h1 {
-   font-size: 4em;
-   -webkit-margin-before: .2em;
-   -webkit-margin-after: 0;
-   letter-spacing: 0.04em;
-}
-
 
 #brewery-head {
-   height: 59vh;
-   display: flex;
-   background: black;
-   box-sizing: border-box;
-   justify-content: center;
-}
-
-#brewery-head svg {
-   flex-grow: 1;
-   max-width: 25em;
+   background-color: #15373a;
+   
+   svg {
+      flex-grow: 1;
+      max-width: 25em;
+   }
 }
 
 #brewery-cup {
-   height: 100vh;
    background: url("/assets/img/brewery-cup.jpg");
    background-size: cover;
    background-position: center
 }
 
 #brewery-shirt {
-   height: 100vh;
    background: url("/assets/img/brewery-wood.jpg");
    background-size: cover;
-   display: flex;
-   align-items: center;
-
    img {
       max-width: 100%;
    }
 }
 
 #brewery-bottles {
-   height: 100vh;
    background: url("/assets/img/brewery-bottles.jpg");
    background-size: cover;
-}
-
-#brewery-lable {
-   box-sizing: border-box;
-}
-
-#brewery-label svg {
-   width: 100%;
-   height: 100%;
 }
