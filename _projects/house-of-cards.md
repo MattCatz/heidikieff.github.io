@@ -1,7 +1,7 @@
 ---
 layout: house-of-cards
 title: "House of Cards"
-thumbnail: "house-of-cards.gif"
+thumbnail: "house-of-cards-thumbnail.png"
 ---
 # HOUSE OF CARDS - MODULA
 
