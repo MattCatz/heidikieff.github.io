@@ -1,5 +1,4 @@
 #chocolate-bar-head {
-   height: 56vh;
    display: flex;
    background-color: #ee2336;
 }
@@ -12,21 +11,53 @@
    background-color: #0e2e3e;
    padding: 1em 3em 3em 1em; 
    box-sizing: border-box;
-   display: flex;
-   flex-direction: column;
-   width: 100%;
    color: #f2ebd9;
+}
+
+#chocolate-bar-description div {
+   max-width: 33%;
 }
 
 #chocolate-bar-description h1 {
    font-family: "chocolate-bar-tall",sans-serif;
-   font-size: 5rem;
+   font-size: 1.4em;
    -webkit-margin-before: .2em;
    -webkit-margin-after: 0;
-   letter-spacing: 0.04em;
+}
+
+#chocolate-bar-description h2 {
+   font-size: 1em;
 }
 
 #chocolate-bar-cards {
-   display: flex;
-   background-color: #f2ebd9
+   background-color: #f2ebd9;
+   justify-content: space-around;
+    svg {
+      flex-grow: 1;
+      height: 16vw;
+      color: blue;
+    }
+}
+
+#chocolate-bar-lables {
+   background: #0E2d3d;
+   justify-content: space-evenly;
+
+   img {
+      objet-fit: scale-down;
+      height: 20em;
+   }
+}
+
+#chocolate-bar-fortune img {
+   height: 88vh;
+}
+
+#chocolate-bar-stacked {
+   padding-top: 8vh;
+   padding-bottom: 3vh;
+
+   img {
+      height: 100vh;
+   }
 }

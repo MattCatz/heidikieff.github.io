@@ -12,6 +12,12 @@
    grid-column-end: span 1;
 }
 
+.centered {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
 @media (min-width: 32em) {
    .default-grid {
       grid-template-columns: 1fr 1fr;
