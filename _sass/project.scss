@@ -18,6 +18,22 @@
    justify-content: center;
 }
 
+.project-description {
+   .text-area {
+      max-width: 33%;
+   }
+
+   h1 {
+      font-size: 1.4em;
+      -webkit-margin-before: .2em;
+      -webkit-margin-after: 0;
+   }
+
+   h2 {
+      font-size: 1em;
+   }
+}
+
 @media (min-width: 32em) {
    .default-grid {
       grid-template-columns: 1fr 1fr;
