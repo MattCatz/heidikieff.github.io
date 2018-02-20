@@ -22,6 +22,10 @@ body {
   color: #eeb62f; 
 }
 
+.lemon-bg {
+  background: #eeb62f;
+}
+
 //:root {
    //font-size: calc(1vw + 1vh + .5vmin);
 //}
@@ -34,3 +38,4 @@ body {
 @import "rooster-brewery";
 @import "chocolate-bar";
 @import "zoo";
+@import "type-book";
