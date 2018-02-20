@@ -20,6 +20,7 @@
 
 .project-description {
    min-height: 40vh;
+   font-size: small;
 
    .text-area {
       max-width: 33%;
@@ -55,5 +56,5 @@
 
    .span-full {
       grid-column-end: span 2;
-   }   
+   }
 }
