@@ -23,7 +23,8 @@
    background: url("/assets/img/brewery-wood.jpg");
    background-size: cover;
    img {
-      max-width: 100%;
+      max-width: 140%;
+      object-fit: cover;
    }
 }
 
