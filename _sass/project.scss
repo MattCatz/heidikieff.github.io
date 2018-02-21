@@ -18,13 +18,30 @@
    justify-content: center;
 }
 
+.fill-screen {
+   height: 100vh;
+}
+
+.fill-sm-screen {
+   max-height: 60vh;
+
+   @media (min-width: 32em) {
+      height: 100vh;
+      max-height: 100vh;
+   }
+}
+
 .project-description {
    min-height: 40vh;
    font-size: small;
    color: white;
 
    .text-area {
-      max-width: 33%;
+      padding-left: 1em;
+
+      @media (min-width: 32em) {
+         max-width: 33%;
+      }
    }
 
    h1 {
