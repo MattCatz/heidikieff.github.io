@@ -1,5 +1,5 @@
 ---
 layout: "404"
-title: "Electromagnetic Type"
+title: "Electromagnetic"
 thumbnail: electromagnetic-thumbnail.png
 ---
