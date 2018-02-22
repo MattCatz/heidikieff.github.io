@@ -13,4 +13,4 @@ Everything needs a reason for being the way it is. Don’t get me wrong, I swoon
 ## GET IN TOUCH --
 {: .lemon}
 
-hmk0016@auburn.edu
+<hmk0016@auburn.edu>
