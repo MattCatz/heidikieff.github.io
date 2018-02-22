@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: "404"
 
 portrait: "assets/img/me.jpg"
 
