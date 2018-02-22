@@ -4,11 +4,7 @@
    grid-template-columns: 1fr;
 }
 
-.span-half {
-   grid-column-end: span 1;
-}
-
-.span-full {
+.span-half, .span-full {
    grid-column-end: span 1;
 }
 

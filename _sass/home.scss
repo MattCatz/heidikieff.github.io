@@ -9,18 +9,20 @@ header, #portfolio {
    justify-items: center;
    grid-template-columns: 1fr;
    padding-bottom: 2em;
-}
 
-@media (min-width: 30em) {
-#portfolio {
-   grid-template-columns: repeat(auto-fill, minmax(25vw, 1fr));
-}
+   @media (min-width: 30em) {
+      grid-template-columns: repeat(auto-fill, minmax(25vw, 1fr)); 
+   }
 }
 
 .project {
   position: relative;
   width: 100%;
   justify-self: center;
+
+  @supports not (display: grid) {
+      margin-bottom: 3em;
+  }
 }
 
 .project div {

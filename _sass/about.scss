@@ -4,12 +4,47 @@
 }
 
 #portrait {
-   max-height: 80vh;
-   min-height: 30rem;
-   float: right;
+   width: 100%;
+   
+   @media (min-width: 32em) {
+      max-height: 80vh;
+      min-height: 30rem;
+      float: right;
+      width: unset;
+   }
 }
 
 #bio {
-  font-family: "Courier New", sans-serif;
-   max-width: 28rem;
+   padding: 1em;
+   font-family: "Courier New", sans-serif;
+
+
+   @media (min-width: 32em) {
+      max-width: 28rem;
+      padding: 0em 1em 0em 0em;
+   }
+}
+
+#social-icons {
+   list-style: none;
+   display: flex;
+   justify-content: space-between;
+   width: 10em;
+   color: black;
+   -webkit-padding-start: 0em;
+
+   .svg-inline--fa {
+      color: #EEB62F;
+      font-size: 1.6em;
+   }
+}
+
+.link-fade {
+   color: black;
+   text-decoration: none;
+
+   &:hover {
+      color: blue;
+      text-decoration: underline;
+   }
 }
