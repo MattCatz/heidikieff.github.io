@@ -16,8 +16,9 @@
 
 #bio {
    padding: 1em;
-   font-family: "Courier New", sans-serif;
-
+   p {
+      font-family: "Courier New", sans-serif;
+   }
 
    @media (min-width: 32em) {
       max-width: 28rem;
