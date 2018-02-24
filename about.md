@@ -15,7 +15,10 @@ behance-username: heidikieff
 ## AUBURN - AL
 {: .lemon}
 
-Everything needs a reason for being the way it is. Don't get me wrong, I swoon over 'aesthetically' pleasing things, but throwing some type and objects together just because it looks good isn't good design. I believe that everything that comes from a designer needs to have intention. Thoughtful research and intentional thinking gets me there. My favorite part of the design process is the initial research and the "ah ha" moment that comes from that. I prefer to work collaboratively, for it lets me see new perspectives and keeps things fresh. I want to push a design as far as it can be pushed. The drive never seems to stop. I'm always asking myself 'what can I make next?' As a young designer, I'm driven because I know I have not yet done my best work yet. That's exciting to me.
+I’m currently a junior in Graphic Design at Auburn University.
+
+I believe that everything that comes from a designer needs to have intention. I truly enjoy the process and research of each project I get to work on. Whether that be slow or fast paced, I love every second of it. I'm like a sponge, I just can't get enough information. I love how Design allows me to stick my nose in fields I'm not familiar with. As I young designer, it's exciting to me that I have not yet done some of my best work. I have so much to learn and I don't plan on stopping that growing process even when I'm much experienced in this field. Though I take design very seriously, I also feel lucky to have such a fun and ever-changing job! I'm always asking "whats next?"
+
 
 ## GET IN TOUCH --
 {: .lemon}
