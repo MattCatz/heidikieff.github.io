@@ -2,21 +2,11 @@ header * {
 	display: inline-block;
 }
 
-header h3 {
-	font-size: smaller;
-}
-
-header a {
-	color: black;
-	text-decoration: none;
-}
-
 header nav {
 	margin-left: auto;
 }
 
-header h2 {
-	font-size: smaller;
+nav h4 {
 	padding-right: 1rem;
 }
 
@@ -30,8 +20,8 @@ header {
 	display: flex;
 	justify-content: flex-start;
 	flex-wrap: wrap;
-	font-size: 1rem;
 	align-items: baseline;
+   font-size: 0.7em;
 }
 
 @media (min-width: 30em) {
@@ -40,11 +30,17 @@ header {
 	}
 
 	header {
-		align-items: center;     
+		align-items: center;    
+      font-size: 0.7em;
 	}
 
 	header nav {
 		position: relative;
 		bottom: -0.4em;
 	}
+
+   header .center {
+      position: relative;
+      bottom: -0.2em;
+   }
 }
