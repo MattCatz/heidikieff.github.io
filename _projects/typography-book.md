@@ -4,9 +4,9 @@ title: "Typography book"
 thumbnail: "type-book-thumbnail.png"
 ---
 
-# CATCHER IN THE RYE
+### CATCHER IN THE RYE
 
-## PACKAGING DESIGN
+#### PACKAGING DESIGN
 
 Objective: Choose a theme from the design principles you learned in your foundations and apply this theme to a multi-page book, using concept, type, and grid. 
 

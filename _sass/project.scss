@@ -29,25 +29,18 @@
 
 .project-description {
    min-height: 40vh;
-   font-size: small;
    color: white;
 
    .text-area {
       padding-left: 1em;
 
       @media (min-width: 32em) {
+         max-width: 60%;
+      }
+
+      @media (min-width: 64em) {
          max-width: 33%;
       }
-   }
-
-   h1 {
-      font-size: 1.4em;
-      -webkit-margin-before: .2em;
-      -webkit-margin-after: 0;
-   }
-
-   h2 {
-      font-size: 1em;
    }
 }
 

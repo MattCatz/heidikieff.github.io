@@ -10,6 +10,11 @@ body {
    font-family: "futura-pt",sans-serif;
 }
 
+a {
+	color: black;
+	text-decoration: none;
+}
+
 .courier-new {
    font-family: "Courier New", sans-serif;
 }
@@ -22,10 +27,11 @@ body {
   background: #eeb62f;
 }
 
-//:root {
-   //font-size: calc(1vw + 1vh + .5vmin);
-//}
+:root {
+   //font-size: 16px;
+}
 
+@import "type-size";
 @import "header";
 @import "home";
 @import "about";
