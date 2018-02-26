@@ -10,6 +10,11 @@ body {
    font-family: "futura-pt",sans-serif;
 }
 
+a {
+	color: black;
+	text-decoration: none;
+}
+
 .courier-new {
    font-family: "Courier New", sans-serif;
 }
@@ -23,9 +28,10 @@ body {
 }
 
 :root {
-   font-size: 16px;
+   //font-size: 16px;
 }
 
+@import "type-size";
 @import "header";
 @import "home";
 @import "about";

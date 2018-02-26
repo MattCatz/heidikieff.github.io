@@ -2,19 +2,11 @@ header * {
 	display: inline-block;
 }
 
-header h3 {
-}
-
-header a {
-	color: black;
-	text-decoration: none;
-}
-
 header nav {
 	margin-left: auto;
 }
 
-header h2 {
+nav h4 {
 	padding-right: 1rem;
 }
 
@@ -29,6 +21,7 @@ header {
 	justify-content: flex-start;
 	flex-wrap: wrap;
 	align-items: baseline;
+   font-size: 0.7em;
 }
 
 @media (min-width: 30em) {
@@ -37,11 +30,17 @@ header {
 	}
 
 	header {
-		align-items: center;     
+		align-items: center;    
+      font-size: 0.7em;
 	}
 
 	header nav {
 		position: relative;
 		bottom: -0.4em;
 	}
+
+   header .center {
+      position: relative;
+      bottom: -0.2em;
+   }
 }
