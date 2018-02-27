@@ -8,7 +8,7 @@
 
 #portrait {
    width: 100%;
-   
+
    @media (min-width: 32em) {
       max-height: 80vh;
       min-height: 30rem;
@@ -33,9 +33,9 @@
    list-style: none;
    display: flex;
    justify-content: space-between;
-   width: 15rem;
+   width: 11rem;
    -webkit-padding-start: 0em;
-   font-size: 2rem;
+   font-size: 1.7rem;
    padding-inline-start: 0px;
 
    .svg-inline--fa {

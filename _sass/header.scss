@@ -14,6 +14,7 @@ header h1 {
 	color: #eeb62f;
 	padding-right: 4rem;
 	-webkit-margin-after: 0em;
+	font-size: x-large;
 }
 
 header {
@@ -21,7 +22,7 @@ header {
 	justify-content: flex-start;
 	flex-wrap: wrap;
 	align-items: baseline;
-   font-size: 0.7em;
+  font-size: 0.7em;
 }
 
 @media (min-width: 30em) {
@@ -31,17 +32,15 @@ header {
 	}
 
 	header {
-		align-items: center;    
-      font-size: 0.7em;
+		align-items: center;
 	}
 
 	header nav {
 		position: relative;
-		bottom: -0.4em;
+		bottom: 0.1em;
 	}
 
    header .center {
       position: relative;
-      bottom: -0.3em;
    }
 }
