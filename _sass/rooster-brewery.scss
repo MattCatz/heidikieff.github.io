@@ -21,14 +21,21 @@
 
 #brewery-shirt {
    background: url("/assets/img/brewery-wood.jpg");
-   background-size: cover;
-   img {
-      max-width: 140%;
-      object-fit: cover;
-   }
 }
 
 #brewery-bottles {
-   background: url("/assets/img/brewery-bottles.jpg");
-   background-size: cover;
+   background: #f7f2e7;
+   padding: 3em;
+
+   img {
+      height: 50%
+   }
+}
+
+.brewery-picture {
+   @extend %project-mockup;
+
+   @media (min-width: 64em) {
+      object-fit: cover;
+   } 
 }

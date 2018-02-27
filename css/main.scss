@@ -1,5 +1,6 @@
 ---
 ---
+@import "color";
 
 img {
    vertical-align: bottom;
@@ -25,10 +26,6 @@ a {
 
 .lemon-bg {
   background: #eeb62f;
-}
-
-:root {
-   //font-size: 16px;
 }
 
 @import "type-size";
