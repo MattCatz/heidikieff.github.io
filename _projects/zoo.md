@@ -3,7 +3,7 @@ layout: zoo-poster
 title: "Zoo Poster"
 thumbnail: "zoo-thumbnail.png"
 ---
-### BIRMINGHAM 60TH ANNIVERSARY ZOO POSTER
+# BIRMINGHAM 60TH ANNIVERSARY ZOO POSTER
 
 #### PACKAGING DESIGN
 

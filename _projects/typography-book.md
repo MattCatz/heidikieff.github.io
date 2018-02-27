@@ -4,7 +4,7 @@ title: "Typography book"
 thumbnail: "type-book-thumbnail.png"
 ---
 
-### CATCHER IN THE RYE
+# CATCHER IN THE RYE
 
 #### PACKAGING DESIGN
 

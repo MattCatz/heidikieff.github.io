@@ -31,15 +31,6 @@
    }
 }
 
-#chocolate-bar-fortune img {
-   height: 88vh;
-}
-
-#chocolate-bar-stacked {
-   padding-top: 8vh;
-   padding-bottom: 3vh;
-
-   img {
-      height: 100vh;
-   }
+.chocolate-bar-img {
+   @extend %project-picture;
 }
