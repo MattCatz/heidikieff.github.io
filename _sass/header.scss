@@ -12,7 +12,7 @@ nav h4 {
 
 header h1 {
 	color: #eeb62f;
-	padding-right: 1rem;
+	padding-right: 4rem;
 	-webkit-margin-after: 0em;
 }
 
@@ -27,6 +27,7 @@ header {
 @media (min-width: 30em) {
 	header h1 {
 		-webkit-margin-after: 0.67em;
+      padding-right: 1rem;
 	}
 
 	header {
@@ -41,6 +42,6 @@ header {
 
    header .center {
       position: relative;
-      bottom: -0.2em;
+      bottom: -0.3em;
    }
 }
