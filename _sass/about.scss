@@ -39,7 +39,7 @@
    padding-inline-start: 0px;
 
    .svg-inline--fa {
-      color: #EEB62F;
+      color: $yellow;
    }
 }
 
@@ -49,5 +49,19 @@
    &:hover {
       color: blue;
       text-decoration: underline;
+   }
+}
+
+.button {
+   border-style: solid;
+   border-width: 2pt;
+   border-color: $yellow;
+   color: $yellow;
+   width: 8rem;
+   height: 2rem;
+
+   &:hover {
+      background-color: $yellow;
+      color: white;
    }
 }

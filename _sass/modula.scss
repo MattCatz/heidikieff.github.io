@@ -14,26 +14,15 @@
    flex-grow: 1;
 }
 
-#modula-description {
+#modula-project .project-description{
    background-color: #f9a220;
-   box-sizing: border-box;
 }
 
-#modula-half {
-   background: url("/assets/img/modula-half.jpg");
-   background-size: cover;
+#modula-app {
+   padding: 3em 1em 3em 1em;
 }
 
-#modula-half img {
-   width: 100%;
-}
-
-#modula-full {
-   background: url("/assets/img/modula.jpg");
-   background-size: cover;
-}
-
-#modula-computer {
-   background: url("/assets/img/modula-computer.jpg");
-   background-size: cover;
+.modula-picture {
+   @extend %project-picture;
+   object-fit: cover;
 }
