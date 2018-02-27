@@ -11,10 +11,14 @@ nav h4 {
 }
 
 header h1 {
-	color: #eeb62f;
-	padding-right: 4rem;
+	color: $yellow;
+	padding-right: 1rem;
 	-webkit-margin-after: 0em;
-	font-size: x-large;
+   -webkit-margin-before: 0.5rem;
+}
+
+header .logo {
+   font-size: 1.7em;
 }
 
 header {
@@ -26,7 +30,7 @@ header {
 }
 
 @media (min-width: 30em) {
-	header h1 {
+	header .logo {
 		-webkit-margin-after: 0.67em;
       padding-right: 1rem;
 	}
