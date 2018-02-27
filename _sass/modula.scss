@@ -19,7 +19,10 @@
 }
 
 #modula-app {
-   padding: 3em 1em 3em 1em;
+   .modula-picture {
+     object-fit: scale-down;
+     width: 80%;
+   }
 }
 
 .modula-picture {

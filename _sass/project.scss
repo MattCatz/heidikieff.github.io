@@ -22,7 +22,8 @@
    max-height: 60vh;
 
    @media (min-width: 32em) {
-      max-height: 100vh;
+      height: 100vh;
+      max-height: unset;
    }
 }
 
@@ -40,6 +41,16 @@
       @media (min-width: 64em) {
          max-width: 33%;
       }
+   }
+
+   h1, h2, h3, h4, p {
+     -webkit-margin-before: 0em;
+     -webkit-margin-after: 0em;
+   }
+
+   h4 {
+     -webkit-margin-after: .9em;
+     -webkit-margin-before: .1em;
    }
 }
 
@@ -74,7 +85,7 @@
       height: 70%;
       padding-top: 0em;
    }
-  
+
 }
 
 %project-picture {

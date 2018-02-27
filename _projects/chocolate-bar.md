@@ -1,5 +1,5 @@
 ---
-layout: "404"
+layout: chocolate-bar
 title: "Chocolate Bar Project"
 thumbnail: "ChocolateEyeGIF.gif"
 ---
