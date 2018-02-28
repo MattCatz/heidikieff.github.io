@@ -7,18 +7,18 @@ header nav {
 }
 
 nav h4 {
-	padding-right: 1rem;
+	padding-right: 4rem;
 }
 
 header h1 {
 	color: $yellow;
 	padding-right: 1rem;
 	-webkit-margin-after: 0em;
-   -webkit-margin-before: 0.5rem;
+        -webkit-margin-before: 0.5rem;
 }
 
 header .logo {
-   font-size: 1.7em;
+    font-size: 1.3em;
 }
 
 header {
@@ -26,13 +26,13 @@ header {
 	justify-content: flex-start;
 	flex-wrap: wrap;
 	align-items: baseline;
-  font-size: 0.7em;
+	font-size: 0.7em;
 }
 
 @media (min-width: 30em) {
 	header .logo {
 		-webkit-margin-after: 0.67em;
-      padding-right: 1rem;
+      		padding-right: 0rem;
 	}
 
 	header {
