@@ -1,6 +1,6 @@
 ---
 layout: zoo-poster
-title: "Zoo Poster"
+title: "Birmingham Zoo Poster"
 thumbnail: "zoo-thumbnail.png"
 ---
 # BIRMINGHAM 60TH ANNIVERSARY ZOO POSTER

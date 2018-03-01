@@ -1,6 +1,6 @@
 ---
 layout: type-book
-title: "Typography book"
+title: "Catcher in the Rye"
 thumbnail: "type-book-thumbnail.png"
 ---
 
