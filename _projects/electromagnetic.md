@@ -1,5 +1,5 @@
 ---
-layout: "404"
+layout: electromagnetic
 title: "Electromagnetic"
 thumbnail: electromagnetic-thumbnail.png
 video: 258007400
