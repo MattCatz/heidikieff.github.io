@@ -1,10 +1,10 @@
 #chocolate-bar-head {
    display: flex;
    background-color: #ee2336;
-}
 
-#chocolate-bar-head svg {
-   flex-grow: 1;
+   svg {
+      flex-grow: 1;
+   }
 }
 
 #chocolate-bar-description {
@@ -14,7 +14,7 @@
 #chocolate-bar-cards {
    background-color: #f2ebd9;
    justify-content: space-around;
-    svg {
+    img {
       flex-grow: 1;
       height: 16vw;
       color: blue;
@@ -24,22 +24,13 @@
 #chocolate-bar-lables {
    background: #0E2d3d;
    justify-content: space-evenly;
+   flex-wrap: wrap;
 
    img {
-      objet-fit: scale-down;
-      height: 20em;
+      height: 30%;
    }
 }
 
-#chocolate-bar-fortune img {
-   height: 88vh;
-}
-
-#chocolate-bar-stacked {
-   padding-top: 8vh;
-   padding-bottom: 3vh;
-
-   img {
-      height: 100vh;
-   }
+.chocolate-bar-img {
+   @extend %project-picture;
 }

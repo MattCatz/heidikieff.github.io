@@ -18,14 +18,19 @@ a {
 
 .courier-new {
    font-family: "Courier New", sans-serif;
+   font-weight: normal;
 }
 
 .lemon {
-  color: #eeb62f;
+  color: $yellow;
+}
+
+.white {
+   color: white;
 }
 
 .lemon-bg {
-  background: #eeb62f;
+   background: $yellow;
 }
 
 @import "type-size";
@@ -39,3 +44,4 @@ a {
 @import "zoo";
 @import "type-book";
 @import "record";
+@import "electromagnetic";
