@@ -1,6 +1,6 @@
 ---
 layout: record
-title: "Record Promotion"
+title: "Cage the Elephant"
 thumbnail: "record-thumbnail.png"
 ---
 # RECORD PROMOTION
