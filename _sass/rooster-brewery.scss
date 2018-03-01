@@ -7,7 +7,7 @@
 #brewery-head {
    background-color: #15373a;
 
-   svg {
+   img {
       flex-grow: 1;
       max-width: 25em;
    }
@@ -16,7 +16,7 @@
 #brewery-cup {
    background: url("/assets/img/brewery-cup.jpg");
    background-size: cover;
-   background-position: center
+   background-position: bottom;
 }
 
 #brewery-shirt {
@@ -24,11 +24,10 @@
 }
 
 #brewery-bottles {
-   background: #f7f2e7;
    padding: 3em;
 
    img {
-      height: 50%
+      height: 95%
    }
 }
 

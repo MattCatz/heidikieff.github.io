@@ -3,7 +3,7 @@ layout: record
 title: "Record Promotion"
 thumbnail: "record-thumbnail.png"
 ---
-### RECORD PROMOTION
+# RECORD PROMOTION
 
 #### PACKAGIN DESIGN
 

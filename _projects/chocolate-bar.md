@@ -4,7 +4,7 @@ title: "Chocolate Bar Project"
 thumbnail: "ChocolateEyeGIF.gif"
 ---
 
-### MR. BOBINSKY’S SPECIALTY DARK CHOCOLATES
+# MR. BOBINSKY’S SPECIALTY DARK CHOCOLATES
 
 #### PACKAGING DESIGN
 
