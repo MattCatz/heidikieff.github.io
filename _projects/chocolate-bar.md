@@ -1,6 +1,6 @@
 ---
 layout: chocolate-bar
-title: "Chocolate Bar Project"
+title: "Mr. Bobinsky's Speciality Darks"
 thumbnail: "ChocolateEyeGIF.gif"
 ---
 
