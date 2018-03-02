@@ -1,15 +1,13 @@
 ---
 layout: default
-
-nav-selection: projects
 ---
 
 <div id="portfolio">
    {% for i in site.projects %}
-   <div class="project">
-      <a href="{{i.url}}">
-      <img src="/assets/img/{{i.thumbnail}}"/>
-      <div class="lemon-bg white">
+   <div class="project {{i.layout}}">
+      <a href="{{i.url}}" class="centered">
+         <img class="thumbnail" src="{{ i.src | default: "/assets/img/" }}{{ i.thumbnail }}"/>
+         <div class="lemon-bg white">
          <h3>{{i.title}}</h3>
       </div>
       </a>

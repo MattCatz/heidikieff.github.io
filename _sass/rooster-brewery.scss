@@ -1,11 +1,13 @@
+.rooster-brewing {
+   background-color: $olive;
+}
+
 #brewery-description {
    background-color: black;
-   padding: 1em 3em 3em 1em;
-   box-sizing: border-box;
 }
 
 #brewery-head {
-   background-color: #15373a;
+   background-color: $olive;
 
    img {
       flex-grow: 1;
@@ -33,8 +35,10 @@
 
 .brewery-picture {
    @extend %project-mockup;
+}
 
+.brewery-picture {
    @media (min-width: 64em) {
       object-fit: cover;
-   } 
+   }
 }
