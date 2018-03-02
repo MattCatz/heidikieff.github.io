@@ -32,7 +32,7 @@
    color: white;
 
    .text-area {
-      padding-left: 1em;
+      padding: 1em;
 
       @media (min-width: 32em) {
          max-width: 60%;
@@ -41,6 +41,13 @@
       @media (min-width: 64em) {
          max-width: 33%;
       }
+   }
+
+   ul {
+     list-style: none;
+     font-style: italic;
+     -webkit-padding-start: 0;
+     padding-start: 0;
    }
 
    h1, h2, h3, h4, p {
