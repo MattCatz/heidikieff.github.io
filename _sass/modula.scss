@@ -27,5 +27,8 @@
 
 .modula-picture {
    @extend %project-picture;
+}
+
+.modula-picture {
    object-fit: cover;
 }

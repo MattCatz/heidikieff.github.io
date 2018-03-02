@@ -44,13 +44,11 @@
    padding-inline-start: 0px;
 
    .svg-inline--fa {
-      color: $yellow;
+      color: $lemon;
    }
 }
 
 .link-fade {
-   @extend a;
-
    &:hover {
       color: blue;
       text-decoration: underline;
@@ -60,13 +58,13 @@
 .button {
    border-style: solid;
    border-width: 2pt;
-   border-color: $yellow;
-   color: $yellow;
+   border-color: $lemon;
+   color: $lemon;
    width: 10rem;
    height: 2rem;
 
    &:hover {
-      background-color: $yellow;
+      background-color: $lemon;
       color: white;
    }
 }

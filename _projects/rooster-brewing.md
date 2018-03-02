@@ -1,7 +1,8 @@
 ---
 layout: rooster-brewing
 title: "Rooster Brewing"
-thumbnail: "beer.png"
+src: "/assets/svg/"
+thumbnail: "brewery-head.svg"
 ---
 # ROOSTER BREWING CO.
 
