@@ -4,7 +4,7 @@ title: "Mr. Bobinsky's Speciality Darks"
 thumbnail: "ChocolateEyeGIF.gif"
 ---
 
-# MR. BOBINSKY’S SPECIALTY DARK CHOCOLATES
+## MR. BOBINSKY’S SPECIALTY DARK CHOCOLATES
 
 #### PACKAGING DESIGN
 
