@@ -1,0 +1,13 @@
+.button {
+   border-style: solid;
+   border-width: 2pt;
+   border-color: $lemon;
+   color: $lemon;
+   width: 10rem;
+   height: 2rem;
+
+   &:hover {
+      background-color: $lemon;
+      color: white;
+   }
+}
