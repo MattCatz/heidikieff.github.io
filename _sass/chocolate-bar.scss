@@ -27,7 +27,9 @@
    flex-wrap: wrap;
 
    img {
-      height: 40%;
+      object-fit: scale-down;
+      max-width: 13vw;
+      min-width: 8rem;
    }
 }
 
