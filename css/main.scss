@@ -33,6 +33,15 @@ a {
    background: $lemon;
 }
 
+.grid-warning {
+   min-height: 3rem;
+   padding: 1rem;
+
+   @supports (display: grid) {
+      display: none !important;
+   }
+}
+
 @import "video";
 @import "type-size";
 @import "header";

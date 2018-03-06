@@ -1,7 +1,8 @@
 ---
 layout: house-of-cards
 title: "House of Cards"
-thumbnail: "house-of-cards-thumbnail.png"
+src: "/assets/svg/"
+thumbnail: "modula-head.svg"
 ---
 # HOUSE OF CARDS - MODULA
 
