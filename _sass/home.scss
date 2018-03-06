@@ -23,6 +23,7 @@ header, #portfolio {
 
   @supports not (display: grid) {
       margin-bottom: 3em;
+      height: 50vh;
   }
 }
 
@@ -56,13 +57,20 @@ header, #portfolio {
    }
 }
 
-.rooster-brewing {
-   a {
-      width: 100%;
-      height: 100%;
-   }
+.project a {
+   width: 100%;
+   height: 100%;
+}
+
+.rooster-brewing .thumbnail {
+      width: 65%;
+}
+
+.house-of-cards {
+   background-color: #f5eedd;
 
    .thumbnail {
-      width: 65%;
+      object-fit: cover;
+      height: 32%;
    }
 }
