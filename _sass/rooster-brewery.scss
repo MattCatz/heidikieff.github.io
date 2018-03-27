@@ -1,13 +1,13 @@
 .rooster-brewing {
-   background-color: $pink;
+   background-color: $rooster-primary;
 }
 
 #brewery-description {
-   background-color: black;
+   background-color: $rooster-secondary;
 }
 
 #brewery-head {
-   background-color: $olive;
+   background-color: $rooster-primary;
 
    img {
       flex-grow: 1;
