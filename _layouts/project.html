@@ -3,4 +3,24 @@ layout: default
 
 nav-selection: projects
 ---
-{{content}}
+{% assign id = page.id | split: "/" %}
+<article id="{{id.last}}" class="default-grid">
+   <section class="project-head span-full fill-screen centered">
+      <img src="{{page.banner}}">
+   </section>
+   <section class="project-description span-full centered">
+      <div class="text-area">
+        <h1>{{page.title}}</h1>
+        <h2>{{page.type}}</h2>
+        {{page.description}}
+        {% if page.awards %}
+          <ul class="awards">
+            {% for award in page.awards %}
+              <li>{{award}}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </div>
+   </section>
+   {{content}}
+</article>

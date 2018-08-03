@@ -43,4 +43,12 @@ plugins:
 collections:
    projects:
       output: true
+      layout: project
       permalink: /projects/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
