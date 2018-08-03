@@ -4,7 +4,8 @@ layout: default
 
 <div id="portfolio">
    {% for i in site.projects %}
-   <div class="project {{i.layout}}">
+   {% assign id = i.id | split: "/" %}
+   <div class="project {{id.last}}">
       <a href="{{i.url}}" class="centered">
          <img class="thumbnail" src="{{ i.src | default: "/assets/img/" }}{{ i.thumbnail }}"/>
          <div class="lemon-bg white">

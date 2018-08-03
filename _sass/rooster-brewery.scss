@@ -1,19 +1,21 @@
-.rooster-brewing {
-   background-color: $rooster-primary;
-}
-
-#brewery-description {
-   background-color: $rooster-secondary;
-   color: $rooster-primary
-}
-
-#brewery-head {
-   background-color: $rooster-primary;
-
-   img {
-      flex-grow: 1;
-      max-width: 25em;
+#rooster-brewing {
+   .project-description {
+      background-color: $rooster-secondary;
+      color: $rooster-primary
    }
+
+   .project-head {
+     background-color: $rooster-primary;
+
+     img {
+        flex-grow: 1;
+        max-width: 25em;
+     }
+   }
+}
+
+.rooster-brewing {
+  background-color: $rooster-primary;
 }
 
 #brewery-cup {

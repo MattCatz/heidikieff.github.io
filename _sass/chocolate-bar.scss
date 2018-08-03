@@ -1,15 +1,19 @@
-#chocolate-bar-head {
-   display: flex;
-   background-color: #ee2336;
+#chocolate-bar {
+  .project-head {
+     display: flex;
+     background-color: #ee2336;
 
-   svg {
-      flex-grow: 1;
-   }
+     img {
+        height: 100%;
+     }
+  }
+
+  .project-description {
+     background-color: #0e2e3e;
+  }
 }
 
-#chocolate-bar-description {
-   background-color: #0e2e3e;
-}
+
 
 #chocolate-bar-cards {
    background-color: #f2ebd9;
