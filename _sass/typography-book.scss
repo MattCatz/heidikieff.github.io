@@ -10,6 +10,18 @@
    }
 }
 
-#type-book-cover img {
-   max-width: 100vw;
+#typography-book {
+  .project-description {
+    background-color: $lemon;
+  }
+
+  .project-head img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+
+  #type-book-cover img {
+    max-width: 100vw
+  }
 }

@@ -14,9 +14,8 @@
    box-sizing: border-box;
    max-width: 100vw;
 
-   svg {
-      width: 100%;
-      height: 100%;
+   img {
+      object-fit: contain;
    }
 }
 
@@ -33,4 +32,15 @@
 
 .modula-picture {
    object-fit: cover;
+}
+
+#modula-app {
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+  img {
+     object-fit: scale-down;
+     max-width: 13vw;
+     min-width: 8rem;
+  }
 }

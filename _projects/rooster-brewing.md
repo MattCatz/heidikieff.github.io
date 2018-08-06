@@ -13,16 +13,22 @@ description: |
   conversations. I wanted to design Rooster Brewing Company an identity that feels
   like a small southern grown business. Their first beer labeled "Brown Ale"
   represents their tastes and encourages those great conversations.
----
 
- <section id="brewery-cup" class="span-half fill-screen">
- </section>
- <section id="brewery-shirt" class="span-half fill-screen centered">
-    <img class="brewery-picture" src="/assets/img/brewery-tshirt.png">
- </section>
- <section id="brewery-lable" class="span-full fill-sm-screen">
-    <img src="/assets/svg/brewery-label.svg">
- </section>
- <section id="brewery-bottles" class="span-full fill-screen centered">
-    <img class="brewery-picture" src="/assets/img/brewery-bottles.png">
- </section>
+page_sections:
+- section: brewery-cup
+  block: one-column-media
+  class: "span-half fill-screen"
+  col-1:
+- section: brewery-shirt
+  block: one-column-media
+  class: "span-half fill-screen centered"
+  col-1: <img class="brewery-picture" src="/assets/img/brewery-tshirt.png">
+- section: brewery-lable
+  block: one-column-media
+  class: "span-full fill-sm-screen"
+  col-1: <img src="/assets/svg/brewery-label.svg">
+- section: brewery-bottles
+  block: one-column-media
+  class: "fill-sm-screen span-full centered"
+  col-1: <img class="brewery-picture" src="/assets/img/brewery-bottles.png">
+---
