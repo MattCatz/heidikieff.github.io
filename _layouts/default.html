@@ -1,6 +1,33 @@
 <!DOCTYPE html>
 <html lang="en-US">
    {% include head.html %}
+   <script>
+   document.addEventListener("DOMContentLoaded", function() {
+  var lazyImages = [].slice.call(document.querySelectorAll("img.lazy"));
+  console.log(lazyImages);
+
+  if ("IntersectionObserver" in window) {
+    let lazyImageObserver = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          console.log("Running");
+          let lazyImage = entry.target;
+          lazyImage.src = lazyImage.dataset.src;
+          // lazyImage.srcset = lazyImage.dataset.srcset;
+          lazyImage.classList.remove("lazy");
+          lazyImageObserver.unobserve(lazyImage);
+        }
+      });
+    });
+
+    lazyImages.forEach(function(lazyImage) {
+      lazyImageObserver.observe(lazyImage);
+    });
+  } else {
+    // Possibly fall back to a more compatible method here
+  }
+});
+   </script>
    <body>
       <div class="grid-warning lemon-bg white centered">
          Hey! It looks like your browser does not support CSS Grids. Most of the layout of this website relies on that feature set so if something looks funny that is probably why.

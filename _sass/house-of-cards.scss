@@ -37,6 +37,9 @@
 #modula-app {
   justify-content: space-evenly;
   flex-wrap: wrap;
+  min-height: 100vh;
+  height: unset;
+  margin: 1rem 0 1rem 0;
 
   img {
      object-fit: scale-down;

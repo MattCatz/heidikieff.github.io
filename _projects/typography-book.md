@@ -1,8 +1,8 @@
 ---
 title: "CATCHER IN THE RYE"
 type: "PACKAGING DESIGN"
-thumbnail: "type-book-thumbnail.png"
-banner: "/assets/img/type-book-header.png"
+thumbnail: "type-book-thumbnail.small.png"
+banner: "/assets/img/type-book-header.small.png"
 awards:
   - Auburn University Graphic Design Juried Show (2018)
 description: |
@@ -17,29 +17,29 @@ page_sections:
 - section: type-book-cover
   block: one-column-media
   class: "span-full fill-sm-screen centered"
-  col-1: <img src="/assets/img/type-book-cover.png">
+  col-1: <img src="/assets/img/type-book-cover.jpg">
 - section: type-book-2
   block: one-column-media
   class: "span-full fill-sm-screen centered"
-  col-1: <img class="type-book-mockup" src="/assets/img/type-book-2.png">
+  col-1: <img class="type-book-mockup" src="/assets/img/type-book-2.jpg">
 - section: type-book-4
   block: one-column-media
   class: "span-full fill-sm-screen centered"
-  col-1: <img class="type-book-mockup" src="/assets/img/type-book-4.png">
+  col-1: <img class="type-book-mockup" src="/assets/img/type-book-4.jpg">
 - section: type-book-6
   block: one-column-media
   class: "span-full fill-sm-screen centered"
-  col-1: <img class="type-book-mockup" src="/assets/img/type-book-6.png">
+  col-1: <img class="type-book-mockup" src="/assets/img/type-book-6.jpg">
 - section: type-book-8
   block: one-column-media
   class: "span-full fill-sm-screen centered"
-  col-1: <img class="type-book-mockup" src="/assets/img/type-book-8.png">
+  col-1: <img class="type-book-mockup" src="/assets/img/type-book-8.jpg">
 - section: type-book-10
   block: one-column-media
   class: "span-full fill-sm-screen centered"
-  col-1: <img class="type-book-mockup" src="/assets/img/type-book-10.png">
+  col-1: <img class="type-book-mockup" src="/assets/img/type-book-10.jpg">
 - section: type-book-12
   block: one-column-media
   class: "span-full fill-sm-screen centered"
-  col-1: <img class="type-book-mockup" src="/assets/img/type-book-12.png">
+  col-1: <img class="type-book-mockup" src="/assets/img/type-book-12.jpg">
 ---
