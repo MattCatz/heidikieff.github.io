@@ -6,6 +6,10 @@
    @extend %project-picture;
 }
 
-#record-project .project-description {
+#record .project-description {
    background: black;
+}
+
+#record .project-head img {
+  width: 65%;
 }
