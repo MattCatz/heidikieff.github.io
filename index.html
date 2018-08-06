@@ -7,10 +7,14 @@ layout: default
    {% assign id = i.id | split: "/" %}
    <div class="project {{id.last}}">
       <a href="{{i.url}}" class="centered">
-         <img class="thumbnail" src="{{ i.src | default: "/assets/img/" }}{{ i.thumbnail }}"/>
+        {% if i.lazy %}
+        <img class="thumbnail lazy" src="{{i.lazy}}" data-src="{{ i.src | default: "/assets/img/" }}{{ i.thumbnail }}"/>
+        {% else %}
+        <img class="thumbnail" src="{{ i.src | default: "/assets/img/" }}{{ i.thumbnail }}"/>
+        {% endif %}
          <div class="lemon-bg white">
          <h3>{{i.title}}</h3>
-      </div>
+       </div>
       </a>
    </div>
    {% endfor %}

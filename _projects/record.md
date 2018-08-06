@@ -1,8 +1,8 @@
 ---
 title: "RECORD PROMOTION"
 type: "PACKAGING DESIGN"
-thumbnail: "record-thumbnail.png"
-banner: "/assets/img/record-front.png"
+thumbnail: "record-thumbnail.jpg"
+banner: "/assets/img/record-front.jpg"
 awards:
   - Auburn University Graphic Design Juried Show (2018)
 description: |
@@ -19,11 +19,11 @@ page_sections:
 - section: record-back
   block: one-column-media
   class: "span-full fill-sm-screen centered"
-  col-1: <img class="record-mockup" src="/assets/img/record-back.png">
+  col-1: <img class="record-mockup" src="/assets/img/record-back.jpg">
 - section: record-front-back
   block: one-column-media
   class: "span-full fill-sm-screen centered"
-  col-1: <img class="record-mockup" src="/assets/img/record-front-back.png">
+  col-1: <img class="record-mockup" src="/assets/img/record-front-back.jpg">
 - section: record-tickets
   block: one-column-media
   class: "span-full fill-sm-screen centered"

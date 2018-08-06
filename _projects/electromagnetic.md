@@ -1,7 +1,7 @@
 ---
 title: "ELECTROMAGNETIC"
 type: "KINETIC TYPOGRAPHY"
-thumbnail: "electromagnetic-thumbnail.prog.jpg"
+thumbnail: "electromagnetic-thumbnail.png"
 
 banner: "/assets/svg/electromagnetic.svg"
 awards:

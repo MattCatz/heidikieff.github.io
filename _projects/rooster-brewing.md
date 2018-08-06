@@ -30,5 +30,5 @@ page_sections:
 - section: brewery-bottles
   block: one-column-media
   class: "fill-sm-screen span-full centered"
-  col-1: <img class="brewery-picture" src="/assets/img/brewery-bottles.png">
+  col-1: <img class="brewery-picture" src="/assets/img/brewery-bottles.jpg">
 ---

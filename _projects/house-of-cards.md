@@ -32,10 +32,10 @@ page_sections:
   block: flexbox-media
   class: "fill-screen span-full centered"
   media:
-    - <img src="/assets/img/modula-app-1.jpg">
-    - <img src="/assets/img/modula-app-2.jpg">
-    - <img src="/assets/img/modula-app-3.jpg">
-    - <img src="/assets/img/modula-app-4.jpg">
+    - <img src="/assets/img/modula-app-1.png">
+    - <img src="/assets/img/modula-app-2.png">
+    - <img src="/assets/img/modula-app-3.png">
+    - <img src="/assets/img/modula-app-4.png">
 - section: modula-full
   block: one-column-media
   class: "fill-screen span-full"
