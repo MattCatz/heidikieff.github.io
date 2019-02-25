@@ -1,0 +1,18 @@
+$dish-primary: #fef200;
+$dish-secondary: #FFFFFF;
+
+#dish {
+  .project-description{
+    background-color: $dish-primary;
+    color: $dish-secondary;
+  }
+}
+
+.dish-picture {
+   @extend %project-picture;
+   object-fit: cover;
+}
+
+.dish {
+    background-color: $dish-primary;
+}
