@@ -4,6 +4,20 @@
    grid-template-columns: 1fr;
 }
 
+.block {
+   max-height: unset;
+   min-height: 100vh;
+
+   .half-col {
+    height: 100vh;
+   }
+
+   @media (min-width: 32em) {
+      height: 100vh;
+      max-height: unset;
+   }
+}
+
 .span-half, .span-full {
    grid-column-end: span 1;
 }

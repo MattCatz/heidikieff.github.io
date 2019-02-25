@@ -1,0 +1,57 @@
+$larry-primarry: #77a4a1;
+$larry-secondary: #F6F9F2;
+
+#lazy-larrys {
+  .project-head {
+    background: url("/assets/img/larry-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+
+    @media (min-width: 32em) {
+      background-repeat: round;
+    }
+
+    img {
+      max-width: 60rem;
+    }
+  }
+
+  .project-description{
+    background-color: $larry-primarry;
+  }
+
+}
+
+#larry-truck, #larry-store {
+  background-color: $larry-secondary;
+}
+
+#larry-truck img {
+  max-width: 100rem;
+}
+
+#larry-store img {
+  max-width: 60rem;
+}
+
+.larry-picture {
+   @extend %project-picture;
+   object-fit: cover;
+}
+
+.larry-lg-picture {
+   @extend %project-picture;
+}
+
+#larry-pattern {
+  background-size: 43rem 18rem;
+  background-image: url(/assets/svg/larry-pattern.svg);
+}
+
+.lazy-larrys {
+    background-color: $larry-primarry;
+
+    .thumbnail {
+      width: 65%;
+    }
+}
