@@ -12,4 +12,7 @@ description: |
   colors and simplistic illustration to pull the viewers curiosity in for a greater
   understanding. The Mandrill isn't the friendliest of monkeys and I didn't
   want to hide that in my design.
+
+listed: 1
+
 ---

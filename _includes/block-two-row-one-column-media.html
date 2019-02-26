@@ -1,0 +1,7 @@
+{% assign id = page.id | split: "/" %}
+<section id="{{section.section}}-row-1" class="block span-full centered {{section.class}}">
+  <img class="{{id.last}}-img project-img" src="{{ section.img-1 }}">
+</section>
+<section id="{{section.section}}-row-2" class="block span-full centered {{section.class}}">
+  <img class="{{id.last}}-img project-img" src="{{ section.img-2 }}">
+</section>
