@@ -1,8 +1,8 @@
 ---
 title: "Dish"
 type: "MAGAZINE DESIGN"
-src: "/assets/svg/"
-thumbnail: "larry-thumbnail.svg"
+src: "/assets/img/"
+thumbnail: "dish-thumbnail.jpg"
 banner: "/assets/img/dish-cover.jpg"
 awards:
 description: |

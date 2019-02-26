@@ -5,16 +5,12 @@
 }
 
 .block {
-   max-height: unset;
-   min-height: 100vh;
-
-   .half-col {
-    height: 100vh;
-   }
+   /*max-height: unset;*/
+   /*min-height: unset;*/
 
    @media (min-width: 32em) {
       height: 100vh;
-      max-height: unset;
+      /*max-height: unset;*/
    }
 }
 
