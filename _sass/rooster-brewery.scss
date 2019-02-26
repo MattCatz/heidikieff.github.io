@@ -10,6 +10,8 @@
      img {
         flex-grow: 1;
         max-width: 25em;
+        width: unset;
+        height: unset;
      }
    }
 }
