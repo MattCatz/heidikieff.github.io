@@ -2,7 +2,7 @@
 title: "Sundance"
 type: "MAGAZINE DESIGN"
 src: "/assets/svg/"
-thumbnail: "larry-thumbnail.svg"
+thumbnail: "sundance-thumbnail.svg"
 banner: "/assets/img/sundance-head.jpg"
 awards:
 description: |

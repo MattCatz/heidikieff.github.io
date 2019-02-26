@@ -27,13 +27,15 @@ $larry-secondary: #F6F9F2;
   background-color: $larry-secondary;
 }
 
-#larry-truck img {
-  max-width: 100rem;
-}
+#larry-store, #larry-truck {
+  img {
+  max-width: 80%;
+  height: 100vh;
 
-#larry-store img {
-  max-width: 60rem;
-}
+  @media (min-width: 32em) {
+    max-width: 40%;
+  }
+}}
 
 .larry-picture {
    @extend %project-picture;
@@ -45,8 +47,13 @@ $larry-secondary: #F6F9F2;
 }
 
 #larry-pattern {
-  background-size: 43rem 18rem;
+  background-size: 60%;
   background-image: url(/assets/svg/larry-pattern.svg);
+  height: 100vh;
+
+  @media (min-width: 32em) {
+    background-size: 30%;
+  }
 }
 
 .lazy-larrys {
@@ -55,4 +62,27 @@ $larry-secondary: #F6F9F2;
     .thumbnail {
       width: 65%;
     }
+}
+
+
+#sundance-trailer {
+  background: black;
+  height: 75vh;
+
+  @media (min-width: 32em) {
+    height: 100vh;
+  }
+  
+  .embed-container {
+  width: 75%;
+  height: 80%;
+  background: black;
+}}
+
+.sundance {
+  background-color: #EFEBE9;
+
+  .thumbnail {
+    width: 75%;
+  }
 }
