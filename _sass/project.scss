@@ -118,3 +118,20 @@
       object-fit: cover;
    }
 }
+
+
+.project-img {
+   object-fit: scale-down;
+   width: 100%;
+   height: 100%;
+
+   @media (min-width: 32em) {
+      object-fit: cover;
+   }
+}
+
+.project-head img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
