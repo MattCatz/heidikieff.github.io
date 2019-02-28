@@ -17,22 +17,22 @@ description: |
 page_sections:
 - section: larry-store
   block: one-large-column-media
-  col-1: <img src="/assets/svg/larry-store.svg">
+  img-1: "/assets/svg/larry-store.svg"
 - section: larry-pattern
   block: one-large-column-media
-  col-1: <div></div>
+  img-1: 
 - section: larry-truck
   block: one-large-column-media
-  col-1: <img src="/assets/svg/larry-truck.svg">
+  img-1: "/assets/svg/larry-truck.svg"
 - section: larry-shirt
   block: two-column-media
-  col-1: <img class="larry-picture" src="/assets/img/larry-shirt.jpg">
-  col-2: <img class="larry-lg-picture" src="/assets/img/larry-tote.jpg">
+  img-1: "/assets/img/larry-shirt.jpg"
+  img-2: "/assets/img/larry-tote.jpg"
 - section: larry-packaging
   block: one-large-column-media
-  col-1: <img class="larry-picture" src="/assets/img/larry-packaging.jpg">
+  img-1: "/assets/img/larry-packaging.jpg"
 - section: larry-matchbook
   block: two-column-media
-  col-1: <img class="larry-picture" src="/assets/img/larry-matchbook.jpg">
-  col-2: <img class="larry-picture" src="/assets/img/larry-cup.jpg">
+  img-1: "/assets/img/larry-matchbook.jpg"
+  img-2: "/assets/img/larry-cup.jpg"
 ---
