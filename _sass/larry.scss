@@ -7,10 +7,6 @@ $larry-secondary: #F6F9F2;
     background-position: center;
     background-repeat: no-repeat;
 
-    @media (min-width: 32em) {
-      background-repeat: round;
-    }
-
     img {
       max-width: 60rem;
       object-fit: unset;
@@ -20,30 +16,20 @@ $larry-secondary: #F6F9F2;
   .project-description{
     background-color: $larry-primarry;
   }
-
-}
-
-#larry-truck, #larry-store {
-  background-color: $larry-secondary;
 }
 
 #larry-store, #larry-truck {
+  background-color: $larry-secondary;
+
   img {
   max-width: 80%;
   height: 100vh;
 
-  @media (min-width: 32em) {
-    max-width: 40%;
+    @media (min-width: 32em) {
+      max-width: 40%;
+      height: unset;
+    }
   }
-}}
-
-.larry-picture {
-   @extend %project-picture;
-   object-fit: cover;
-}
-
-.larry-lg-picture {
-   @extend %project-picture;
 }
 
 #larry-pattern {
