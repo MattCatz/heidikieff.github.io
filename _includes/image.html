@@ -1,2 +1,7 @@
 {% assign id = page.id | split: "/" %}
-<img class="{{id.last}}-img project-img" src="{{ include.img }}">
+{% assign temp = include.img | split: "/" %}
+{% if include.img contains "img" %}
+	<img class="{{id.last}}-img project-img" src="/assets/img/medium/{{ img.last }}">
+{% else %}	
+	<img class="{{id.last}}-img project-img" src="{{ include.img }}">
+{% endif %}
