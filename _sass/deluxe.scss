@@ -1,0 +1,22 @@
+#deluxe-iphone {
+	img {
+		width: 45;
+	}
+}
+
+#imac-1, #imac-2, #imac-3 {
+	background-color: #efebe6;
+}
+
+#deluxe {
+	.project-head {
+		background-color: #D1D0D0;
+		img {
+			max-height: 100%;
+		}
+	}
+}
+
+.deluxe-img {
+	object-fit: scale-down;
+}
