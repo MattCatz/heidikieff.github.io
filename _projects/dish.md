@@ -17,11 +17,11 @@ description: |
 page_sections:
 - section: spread-1
   block: one-large-column-media
-  col-1: <img class="dish-picture" src="/assets/img/dish-spread-1.jpg">
+  img-1: "/assets/img/dish-spread-1.jpg"
 - section: spread-2
   block: one-large-column-media
-  col-1: <img class="dish-picture" src="/assets/img/dish-spread-2.jpg">
+  img-1: "/assets/img/dish-spread-2.jpg"
 - section: spread-3
   block: one-large-column-media
-  col-1: <img class="dish-picture" src="/assets/img/dish-spread-3.jpg">
+  img-1: "/assets/img/dish-spread-3.jpg"
 ---

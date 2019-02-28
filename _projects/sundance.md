@@ -24,6 +24,7 @@ page_sections:
   img-1: "/assets/img/sundance-id-card.jpg"
   img-2: "/assets/img/sundance-tote.jpg"
 - section: sundance-trailer
-  block: one-large-column-media
+  block: one-column-media
+  class: "span-full centered"
   col-1: <div class="embed-container"><iframe src="https://player.vimeo.com/video/293079006?color=eeb62f&byline=0&portrait=0&title=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 ---

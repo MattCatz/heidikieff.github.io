@@ -8,11 +8,6 @@ $dish-secondary: #FFFFFF;
   }
 }
 
-.dish-picture {
-   @extend %project-picture;
-   object-fit: cover;
-}
-
 .dish {
     background-color: $dish-primary;
 }
