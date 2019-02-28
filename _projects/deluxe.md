@@ -33,5 +33,5 @@ page_sections:
 - section: deluxe-icons
   block: one-row-two-column-media
   img-1: "/assets/img/deluxe-icons.jpg"
-  img-2: "/assets/img/deluse-hat.jpg"
+  img-2: "/assets/img/deluxe-hat.jpg"
 ---
