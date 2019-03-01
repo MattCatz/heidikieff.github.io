@@ -7,13 +7,7 @@ background: "/assets/img/dish-header.jpg"
 banner: "/assets/svg/dish-logo.svg"
 awards:
 description: |
-  Modula was the first high resolution font family designed on the new Apple
-  Macintosh 512K. The font embraces it's digital design process. It was designed
-  to complement the computers ability to produce perfect geometric elements
-  unlike existing analog fonts, who produced hideous emulations of the original
-  because of the limitations of bitmap fonts. I wanted my House of Cards to tell
-  that story. Showing each letterform and pairing it with a composition that
-  represented that new age of technology.
+  The Dish is a quarterly American magazine where food and culture connect. We believe in authenticity and transparency in the kitchen, both in the food and the great people making it. Dish cares about diversity and the meals that bring us together. The publication targets both male and females ranging from early 20’s (readers who have sparked an interest in cooking) to late 40’s (readers who have experience with cooking, but want to keep in touch with whats new). Run The Dish seeks to take an authentic approach to every day cooking. 
 
 page_sections:
 - section: spread-1
