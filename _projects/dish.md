@@ -1,9 +1,9 @@
 ---
 title: "Dish"
 type: "MAGAZINE DESIGN"
-src: "/assets/img/"
-thumbnail: "dish-thumbnail.jpg"
-banner: "/assets/img/dish-cover.jpg"
+src: "/assets/svg/"
+thumbnail: "dish-logo.svg"
+banner: "/assets/svg/dish-logo.svg"
 awards:
 description: |
   Modula was the first high resolution font family designed on the new Apple
@@ -24,4 +24,8 @@ page_sections:
 - section: spread-3
   block: one-large-column-media
   img-1: "/assets/img/dish-spread-3.jpg"
+- section: issuu
+  block: one-column-media
+  class: "span-full fill-screen centered"
+  col-1: <div data-configid="32548388/68098854" class="issuuembed"></div><script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
 ---

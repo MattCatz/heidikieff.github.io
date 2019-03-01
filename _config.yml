@@ -57,8 +57,8 @@ mini_magick:
         thumbnail:
                 source: assets/img
                 destination: assets/img/thumbnail
-                resize: "100x100"
+                resize: "800x800>"
         medium:
                 source: assets/img
                 destination: assets/img/medium
-                resize: "50%"
+                resize: "1920x1080>"

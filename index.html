@@ -11,9 +11,10 @@ layout: default
      <div class="project {{id.last}}">
         <a href="{{i.url}}" class="centered">
           {% if i.lazy %}
-          <img class="thumbnail lazy" src="{{i.lazy}}" data-src="{{ i.src | default: "/assets/img/" }}{{ i.thumbnail }}"/>
+            <img class="thumbnail lazy" src="{{i.lazy}}" data-src="{{ i.src | default: "/assets/img/" }}{{ i.thumbnail }}"/>
           {% else %}
-          <img class="thumbnail" src="{{ i.src | default: "/assets/img/" }}{{ i.thumbnail }}"/>
+            {% assign thumbnail = i.src | append: i.thumbnail %}
+            {% include image.html class="thumbnail" img=thumbnail %}
           {% endif %}
            <div class="lemon-bg white">
            <h3>{{i.title}}</h3>

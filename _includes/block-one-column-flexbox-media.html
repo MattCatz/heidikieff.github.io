@@ -1,0 +1,5 @@
+<section id="{{section.section}}" class="block span-full centered {{section.class}}">
+  {% for media in section.media %}
+  	{% include image.html img=media %}
+  {% endfor %}
+</section>
