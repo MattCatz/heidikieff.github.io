@@ -1,18 +1,14 @@
 ---
 title: "Standard Deluxe"
-type: "MAGAZINE DESIGN"
+type: "INTERACTIVE MEDIA"
 src: "/assets/img/"
 thumbnail: "deluxe-header.jpg"
 banner: "/assets/img/deluxe-header.jpg"
 awards:
 description: |
-  Modula was the first high resolution font family designed on the new Apple
-  Macintosh 512K. The font embraces it's digital design process. It was designed
-  to complement the computers ability to produce perfect geometric elements
-  unlike existing analog fonts, who produced hideous emulations of the original
-  because of the limitations of bitmap fonts. I wanted my House of Cards to tell
-  that story. Showing each letterform and pairing it with a composition that
-  represented that new age of technology.
+Standard Deluxe is a print shop located in Waverly, Alabama.
+It’s a timeless place full of beautiful prints and good music. Their website design was aimed to be classic, just like the craft of screen printing. The website is set up as an nostalgic newspaper in only black and white.
+Users of the site come soon to find out that once the mouse scrolls over an illustration or picture, it is brought to life with color. It’s always a good time out in Waverly and I thought the website should show it..
 
 page_sections:
 - section: imac-1

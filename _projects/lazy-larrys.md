@@ -6,13 +6,7 @@ thumbnail: "larry-store.svg"
 banner: "/assets/svg/larry-head.svg"
 awards:
 description: |
-  Modula was the first high resolution font family designed on the new Apple
-  Macintosh 512K. The font embraces it's digital design process. It was designed
-  to complement the computers ability to produce perfect geometric elements
-  unlike existing analog fonts, who produced hideous emulations of the original
-  because of the limitations of bitmap fonts. I wanted my House of Cards to tell
-  that story. Showing each letterform and pairing it with a composition that
-  represented that new age of technology.
+  Lazy Larry’s Seafood Shack is a seafood restuarant and food truck located in Portland, ME that focuses on community and the food we serve them. The primary audience are the folks who hang out by the docks all day. 
 
 page_sections:
 - section: larry-store
@@ -20,7 +14,7 @@ page_sections:
   img-1: "/assets/svg/larry-store.svg"
 - section: larry-pattern
   block: one-large-column-media
-  img-1: 
+  img-1:
 - section: larry-truck
   block: one-large-column-media
   img-1: "/assets/svg/larry-truck.svg"
