@@ -13,6 +13,6 @@ description: |
   understanding. The Mandrill isn't the friendliest of monkeys and I didn't
   want to hide that in my design.
 
-listed: 1
+listed: "no"
 
 ---
