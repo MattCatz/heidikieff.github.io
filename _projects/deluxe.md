@@ -25,11 +25,10 @@ page_sections:
   block: one-large-column-media
   img-1: "/assets/img/deluxe-imac-3.jpg"
 - section: deluxe-iphone
-  block: flexbox-media
-  class: "fill-screen span-full centered"
+  block: one-column-flexbox-media
   media:
-    - <img src="/assets/img/deluxe-iphone-1.png">
-    - <img src="/assets/img/deluxe-iphone-2.png">
+    - "/assets/img/deluxe-iphone-1.jpg"
+    - "/assets/img/deluxe-iphone-2.jpg"
 - section: deluxe-icons
   block: two-row-one-column-media
   img-1: "/assets/img/deluxe-icons.jpg"
