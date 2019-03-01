@@ -6,7 +6,7 @@ nav-selection: projects
 {% assign id = page.id | split: "/" %}
 <article id="{{id.last}}" class="default-grid">
    <section class="project-head span-full fill-screen centered">
-      <img src="{{page.banner}}">
+      {% include image.html img=page.banner %}
    </section>
    <section class="project-description span-full centered">
       <div class="text-area">
