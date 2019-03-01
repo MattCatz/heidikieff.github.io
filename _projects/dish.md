@@ -3,6 +3,7 @@ title: "Dish"
 type: "MAGAZINE DESIGN"
 src: "/assets/svg/"
 thumbnail: "dish-logo.svg"
+background: "/assets/img/dish-header.jpg"
 banner: "/assets/svg/dish-logo.svg"
 awards:
 description: |
