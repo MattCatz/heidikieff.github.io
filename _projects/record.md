@@ -36,4 +36,7 @@ page_sections:
   block: one-column-media
   class: "span-full fill-sm-screen centered"
   col-1: <img class="record-picture" src="/assets/img/record-come-a-little-closer.jpg">
+
+listed: "no"
+
 ---

@@ -1,6 +1,6 @@
 header, #portfolio {
-   padding-left: 7vw;
-   padding-right: 7vw;
+   padding-left: 2vw;
+   padding-right: 2vw;
 }
 
 #portfolio {
@@ -12,7 +12,8 @@ header, #portfolio {
    padding-bottom: 2em;
 
    @media (min-width: 30em) {
-      grid-template-columns: repeat(auto-fill, minmax(25vw, 1fr)); 
+      grid-template-columns: repeat(auto-fill, minmax(32vw, 1fr));
+      grid-auto-rows: 60vh; 
    }
 }
 
@@ -20,6 +21,7 @@ header, #portfolio {
   position: relative;
   width: 100%;
   justify-self: center;
+  overflow: hidden;
 
   @supports not (display: grid) {
       margin-bottom: 3em;
@@ -36,14 +38,32 @@ header, #portfolio {
   visibility: hidden;
   opacity: 0;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   transition: opacity .2s, visibility .2s;
+  padding-left: 3em;
+  background: #252d318a;
+  z-index: 2;
+}
+
+.thumbnail-bg {
+  position: absolute;
+  z-index: 0;
+  max-height: 100%;
+}
+
+.thumbnail {
+  z-index: 1;
 }
 
 .project:hover div {
   visibility: visible;
   opacity: 1;
+}
+
+.project h3 {
+  font-size: 2em;
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 .project .thumbnail {

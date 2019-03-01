@@ -4,20 +4,20 @@ layout: default
 
 <div id="portfolio">
    {% for i in site.projects %}
-   {% if i.listed %}
+   {% if i.listed == "no" %}
       {% continue %}
    {% else %}
      {% assign id = i.id | split: "/" %}
      <div class="project {{id.last}}">
         <a href="{{i.url}}" class="centered">
-          {% if i.lazy %}
-          <img class="thumbnail lazy" src="{{i.lazy}}" data-src="{{ i.src | default: "/assets/img/" }}{{ i.thumbnail }}"/>
-          {% else %}
-          <img class="thumbnail" src="{{ i.src | default: "/assets/img/" }}{{ i.thumbnail }}"/>
+          {% if i.background %}
+            {% include image.html class="thumbnail-bg" img=i.background %}
           {% endif %}
-           <div class="lemon-bg white">
-           <h3>{{i.title}}</h3>
-         </div>
+          {% assign thumbnail = i.src | append: i.thumbnail %}
+          {% include image.html class="thumbnail" img=thumbnail %}
+           <div class="white">
+             <h3>{{i.title}}</h3>
+           </div>
         </a>
      </div>
    {% endif %}

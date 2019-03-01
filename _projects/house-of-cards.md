@@ -40,4 +40,7 @@ page_sections:
   block: one-column-media
   class: "fill-screen span-full"
   col-1: <img class="modula-picture" src="/assets/img/modula.jpg">
+
+listed: "no"
+
 ---

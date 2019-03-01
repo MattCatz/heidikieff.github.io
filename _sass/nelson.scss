@@ -1,1 +1,25 @@
-$deluxe-primary: #0E6C3A;
+$nelson-primary: #0E6C3A;
+
+#nelson-svg, #nelson .project-head {
+	background-color: $nelson-primary;
+}
+
+#nelson .project-head img {
+	height: unset;
+	width: 30%;
+}
+
+#nelson-svg {
+	justify-content: space-around;
+	img {
+		height: unset;
+		width: 22%;
+	}
+}
+
+.nelson{
+	.thumbnail {
+		height: unset;
+		width: 30%;
+	}
+}
