@@ -1,7 +1,8 @@
 ---
 title: "Sundance"
 type: "MAGAZINE DESIGN"
-thumbnail: "nelson-farmer.jpg"
+src: "/assets/svg/"
+thumbnail: "nelson-logo.svg"
 banner: "/assets/svg/nelson-logo.svg"
 awards:
 description: |
