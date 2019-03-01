@@ -38,4 +38,7 @@ page_sections:
   block: one-column-media
   class: "span-full fill-screen centered"
   col-1: <img class="chocolate-bar-img" src="/assets/img/stacked-bars.jpg">
+
+listed: "no"
+
 ---

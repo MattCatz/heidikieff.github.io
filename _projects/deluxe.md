@@ -31,7 +31,7 @@ page_sections:
     - <img src="/assets/img/deluxe-iphone-1.png">
     - <img src="/assets/img/deluxe-iphone-2.png">
 - section: deluxe-icons
-  block: one-row-two-column-media
+  block: two-row-one-column-media
   img-1: "/assets/img/deluxe-icons.jpg"
-  img-2: "/assets/img/deluxe-hat.jpg"
+  img-2: "/assets/img/deluxe-hat.png"
 ---
