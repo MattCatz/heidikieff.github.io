@@ -6,13 +6,7 @@ thumbnail: "sundance-thumbnail.svg"
 banner: "/assets/img/sundance-head.jpg"
 awards:
 description: |
-  Modula was the first high resolution font family designed on the new Apple
-  Macintosh 512K. The font embraces it's digital design process. It was designed
-  to complement the computers ability to produce perfect geometric elements
-  unlike existing analog fonts, who produced hideous emulations of the original
-  because of the limitations of bitmap fonts. I wanted my House of Cards to tell
-  that story. Showing each letterform and pairing it with a composition that
-  represented that new age of technology.
+  This trailer was a final project created in a Kinetic Typography course at Auburn University’s School of Industrial + Graphic Design. The objective was to create a print piece and video promotion that are connected using an augmented reality app. The design concept is a rebrand for the Sundance Film Festival. It incorporates a collection of type, images and shapes that move individually but flow as one concept throughout the piece. The video is designed to capture the viewers attention and incite excitement about the festival. This conceptual design is intended to be professional promotion that could actually be used by the Sundance Film Festival in the year 2020.
 
 page_sections:
 - section: sundance-ticket
