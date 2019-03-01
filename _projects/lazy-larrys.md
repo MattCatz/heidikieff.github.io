@@ -2,7 +2,7 @@
 title: "Lazy Larrys"
 type: "PACKAGING DESIGN"
 src: "/assets/svg/"
-thumbnail: "larry-thumbnail.svg"
+thumbnail: "larry-store.svg"
 banner: "/assets/svg/larry-head.svg"
 awards:
 description: |
@@ -35,4 +35,5 @@ page_sections:
   block: two-column-media
   img-1: "/assets/img/larry-matchbook.jpg"
   img-2: "/assets/img/larry-cup.jpg"
+
 ---

@@ -22,4 +22,7 @@ page_sections:
   block: one-column-media
   class: "span-half fill-screen centered"
   col-1: <img class="project-mockup" src="/assets/svg/electro-type.svg">
+
+listed: "no"
+
 ---

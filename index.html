@@ -4,7 +4,7 @@ layout: default
 
 <div id="portfolio">
    {% for i in site.projects %}
-   {% if i.listed %}
+   {% if i.listed == "no" %}
       {% continue %}
    {% else %}
      {% assign id = i.id | split: "/" %}
