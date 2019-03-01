@@ -3,6 +3,7 @@ title: "Sundance"
 type: "MAGAZINE DESIGN"
 src: "/assets/svg/"
 thumbnail: "nelson-logo.svg"
+background: "/assets/img/nelson-background.jpg"
 banner: "/assets/svg/nelson-logo.svg"
 awards:
 description: |

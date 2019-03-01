@@ -10,15 +10,14 @@ layout: default
      {% assign id = i.id | split: "/" %}
      <div class="project {{id.last}}">
         <a href="{{i.url}}" class="centered">
-          {% if i.lazy %}
-            <img class="thumbnail lazy" src="{{i.lazy}}" data-src="{{ i.src | default: "/assets/img/" }}{{ i.thumbnail }}"/>
-          {% else %}
-            {% assign thumbnail = i.src | append: i.thumbnail %}
-            {% include image.html class="thumbnail" img=thumbnail %}
+          {% if i.background %}
+            {% include image.html class="thumbnail-bg" img=i.background %}
           {% endif %}
+          {% assign thumbnail = i.src | append: i.thumbnail %}
+          {% include image.html class="thumbnail" img=thumbnail %}
            <div class="white">
-           <h3>{{i.title}}</h3>
-         </div>
+             <h3>{{i.title}}</h3>
+           </div>
         </a>
      </div>
    {% endif %}
