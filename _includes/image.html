@@ -1,0 +1,12 @@
+{% assign id = page.id | split: "/" %}
+{% assign img = include.img | split: "/" %}
+
+{% if page.collection == "projects" %}
+	{% assign classes = id.last | append: "-img project-img "%}
+{% endif %}
+
+{% if include.img contains "img" %}
+	<img class="{{classes}} {{include.class}}" src="/assets/img/medium/{{ img.last }}">
+{% else %}	
+	<img class="{{classes}} {{include.class}}" src="{{ include.img }}">
+{% endif %}
