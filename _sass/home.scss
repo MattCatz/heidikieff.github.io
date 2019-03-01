@@ -21,6 +21,7 @@ header, #portfolio {
   position: relative;
   width: 100%;
   justify-self: center;
+  overflow: hidden;
 
   @supports not (display: grid) {
       margin-bottom: 3em;
@@ -42,6 +43,17 @@ header, #portfolio {
   transition: opacity .2s, visibility .2s;
   padding-left: 3em;
   background: #252d318a;
+  z-index: 2;
+}
+
+.thumbnail-bg {
+  position: absolute;
+  z-index: 0;
+  max-height: 100%;
+}
+
+.thumbnail {
+  z-index: 1;
 }
 
 .project:hover div {

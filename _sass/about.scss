@@ -32,6 +32,10 @@
    .extra-space {
       margin-bottom: 2em;
    }
+
+   h1::after {
+      content: " \23AF\23AF\23AF";
+   }
 }
 
 #social-icons {
@@ -42,10 +46,8 @@
    -webkit-padding-start: 0em;
    font-size: 1.7rem;
    padding-inline-start: 0px;
-
-   .svg-inline--fa {
-      color: $lemon;
-   }
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 
 .link-fade {
@@ -53,4 +55,27 @@
       color: blue;
       text-decoration: underline;
    }
+}
+
+.about-footer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   div {
+      display: flex;
+      width: 10em;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 5em;
+      margin-right: 5em;
+   }
+
+   h2 {
+      color: gray;
+   }
+}
+
+.copyright {
+   height: 6em;
 }
