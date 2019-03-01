@@ -37,14 +37,21 @@ header, #portfolio {
   visibility: hidden;
   opacity: 0;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   transition: opacity .2s, visibility .2s;
+  padding-left: 3em;
+  background: #252d318a;
 }
 
 .project:hover div {
   visibility: visible;
   opacity: 1;
+}
+
+.project h3 {
+  font-size: 2em;
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 .project .thumbnail {
