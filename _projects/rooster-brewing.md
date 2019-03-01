@@ -31,4 +31,7 @@ page_sections:
   block: one-column-media
   class: "fill-sm-screen span-full centered"
   col-1: <img class="brewery-picture" src="/assets/img/brewery-bottles.jpg">
+
+listed: "no"
+  
 ---

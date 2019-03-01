@@ -2,8 +2,8 @@
 title: "Sundance"
 type: "MAGAZINE DESIGN"
 src: "/assets/svg/"
-thumbnail: "sundance-thumbnail.svg"
-banner: "/assets/img/sundance-head.jpg"
+thumbnail: "sundance-logo.svg"
+banner: "/assets/svg/sundance-logo.svg"
 awards:
 description: |
   Modula was the first high resolution font family designed on the new Apple
