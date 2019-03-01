@@ -1,19 +1,14 @@
 ---
-title: "Sundance"
-type: "MAGAZINE DESIGN"
+title: "Bill Nelson Seed Co."
+type: "PACKAGE DESIGN"
 src: "/assets/svg/"
 thumbnail: "nelson-logo.svg"
 background: "/assets/img/nelson-background.jpg"
 banner: "/assets/svg/nelson-logo.svg"
 awards:
 description: |
-  Modula was the first high resolution font family designed on the new Apple
-  Macintosh 512K. The font embraces it's digital design process. It was designed
-  to complement the computers ability to produce perfect geometric elements
-  unlike existing analog fonts, who produced hideous emulations of the original
-  because of the limitations of bitmap fonts. I wanted my House of Cards to tell
-  that story. Showing each letterform and pairing it with a composition that
-  represented that new age of technology.
+Bill Nelson Seed Co. is located in Greenville, North Carolina and is targeted towards farmers who are interested in sustainable agriculture. The farmers who purchase our products are interested in sustainable farming starting with their most important product, seeds. Bill Nelson Seed Co. aims to make the best
+product, cause no unnecessary harm to the environment, and perhaps inspire farmers to think of solutions to the environmental crisis.
 
 page_sections:
 - section: nelson-cards
