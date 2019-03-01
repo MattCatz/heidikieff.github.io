@@ -1,10 +1,10 @@
-{% if include.nav-selection == "projects" %}
+{% if layout.nav-selection == "projects" %}
 <header>
   <h4><a class="selected" href="/">WORK</a></h4>
   <h1><a class="logo" href="/">Heidi Kieffer</a></h1>
   <h4><a href="/about.html">ABOUT</a></h4>
 </header>
-{% elsif include.nav-selection == "about" %}
+{% elsif layout.nav-selection == "about" %}
 <header>
   <h4><a href="/">WORK</a></h4>
   <h1><a class="logo" href="/">Heidi Kieffer</a></h1>
@@ -14,6 +14,6 @@
 <header>
   <h4><a href="/">WORK</a></h4>
   <h1><a class="logo" href="/">Heidi Kieffer</a></h1>
-  <h4><a href="/about.html">ABOUT</a></h4>
+  <h4><a href="/about.html">ABOUT{{include}}</a></h4>
 </header>
 {% endif %}
