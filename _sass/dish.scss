@@ -1,6 +1,10 @@
 $dish-primary: #fef200;
 $dish-secondary: #FFFFFF;
 
+.banner {
+    object-fit: unset;
+}
+
 #dish {
   .project-description{
     background-color: $dish-primary;
@@ -8,16 +12,11 @@ $dish-secondary: #FFFFFF;
   }
 }
 
-#dish .project-head {
-    background-image: url(/assets/img/dish-header.jpg);
-    background-repeat: round;
-}
-
-#dish .project-head img {
+#dish .project-head .banner {
 	height: unset;
 	width: 40%;
 	position: absolute;
-	top: 30%;
+	top: 20%;
 }
 
 .dish .thumbnail {
@@ -31,3 +30,18 @@ $dish-secondary: #FFFFFF;
 	width: 100%;
 	height: 100%;
 }
+
+.project-head {
+    position: relative;
+}
+
+.banner-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+

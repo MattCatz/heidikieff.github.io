@@ -62,3 +62,8 @@ mini_magick:
                 source: assets/img
                 destination: assets/img/medium
                 resize: "1920x1080>"
+        webp:
+          source: assets/img
+          destination: assets/img/webp
+          format: "webp"
+          resize: "1920x1080>"

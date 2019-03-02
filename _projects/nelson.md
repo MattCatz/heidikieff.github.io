@@ -14,11 +14,9 @@ page_sections:
   block: one-large-column-media
   img-1: "/assets/img/nelson-cards.jpg"
 - section: nelson-svg
-  block: flexbox-media
-  class: "fill-screen span-full centered"
-  media:
-    - <img src="/assets/svg/nelson-logo.svg">
-    - <img src="/assets/svg/nelson-logo-text.svg">
+  block: two-column-media
+  img-1: "/assets/svg/nelson-logo.svg"
+  img-2: "/assets/svg/nelson-logo-text.svg"
 - section: nelson-stationary
   block: one-row-two-column-media
   img-1: "/assets/img/nelson-stationary.jpg"
