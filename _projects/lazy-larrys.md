@@ -6,7 +6,7 @@ thumbnail: "larry-store.svg"
 banner: "/assets/svg/larry-head.svg"
 awards:
 description: |
-  Lazy Larry’s Seafood Shack is a seafood restuarant and food truck located in Portland, ME that focuses on community and the food we serve them. The primary audience are the folks who hang out by the docks all day. 
+  Lazy Larry’s Seafood Shack is a seafood restaurant and food truck located in Portland, ME that focuses on community and the food we serve them. The primary audience are the folks who hang out by the docks all day working on their boats. 
 
 page_sections:
 - section: larry-store
