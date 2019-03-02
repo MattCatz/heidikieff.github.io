@@ -1,6 +1,9 @@
+$deluxe-primary: #D1D0D0;
+$deluxe-secondary: #000;
+
 #deluxe-iphone {
 	img {
-		width: 45%;
+		min-width: 45%;
 	}
 }
 
@@ -10,22 +13,26 @@
 
 #deluxe {
 	.project-head {
-		background-color: #D1D0D0;
+		background-color: $deluxe-primary;
 		img {
 			height: unset;
 			max-width: 65%;
 			box-shadow: 0 0.5em  1rem #a1a1a1
 		}
 	}
+
+	.project-description {
+		background-color: $deluxe-secondary;
+	}
 }
 
 .deluxe {
-	background-color: #D1D0D0;
+	background-color: $deluxe-primary;
 
 	.thumbnail {
 		height: unset;
 		max-width: 65%;
-		box-shadow: 0 0.5em  1rem #a1a1a1
+		box-shadow: 0 0.5em  1rem #a1a1a1;
 	}
 }
 

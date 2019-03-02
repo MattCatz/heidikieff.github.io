@@ -9,11 +9,19 @@ $nelson-primary: #0E6C3A;
 	width: 30%;
 }
 
+#nelson .project-description {
+	background-color: $nelson-primary;
+}
+
 #nelson-svg {
 	justify-content: space-around;
 	img {
-		height: unset;
-		width: 22%;
+		height: 100vh;
+
+		@media (min-width: 30em) {
+			height: unset;
+			width: 22%;
+		}
 	}
 }
 

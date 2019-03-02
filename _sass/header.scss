@@ -22,33 +22,23 @@ header {
 	align-items: baseline;
 	font-size: 0.7em;
 	height: 7rem;
+	flex-direction: row;
 }
 
 .selected {
 	border-bottom: 1px solid black;
 }
 
-@media (min-width: 30em) {
-	header .logo {
-		-webkit-margin-after: 0.67em;
-      		padding-right: 0rem;
-	}
-
-	header {
-		align-items: center;
-	}
-
-	header nav {
-		position: relative;
-		bottom: 0.1em;
-	}
-
-   header .center {
-      position: relative;
-   }
-}
-
 .nav-icon {
 	height: 2.2em;
-	width: 10em;
+	width: 8em;
+	margin: 0.4em
+}
+
+header a {
+	order: 1;
+
+   @media (min-width: 30em) {
+   	order: 0;
+   }
 }
