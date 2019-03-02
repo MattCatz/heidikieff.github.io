@@ -6,9 +6,7 @@ thumbnail: "deluxe-header.jpg"
 banner: "/assets/img/deluxe-header.jpg"
 awards:
 description: |
-Standard Deluxe is a print shop located in Waverly, Alabama.
-It’s a timeless place full of beautiful prints and good music. Their website design was aimed to be classic, just like the craft of screen printing. The website is set up as an nostalgic newspaper in only black and white.
-Users of the site come soon to find out that once the mouse scrolls over an illustration or picture, it is brought to life with color. It’s always a good time out in Waverly and I thought the website should show it..
+  Standard Deluxe is a print shop located in Waverly, Alabama. It’s a timeless place full of beautiful prints and good music. Their website design was aimed to be classic, just like the craft of screen printing. The website is set up as an nostalgic newspaper in only black and white. Users of the site come soon to find out that once the mouse scrolls over an illustration or picture, it is brought to life with color. It’s always a good time out in Waverly and I thought the website should show it..
 
 page_sections:
 - section: imac-1

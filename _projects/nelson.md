@@ -7,8 +7,7 @@ background: "/assets/img/nelson-background.jpg"
 banner: "/assets/svg/nelson-logo.svg"
 awards:
 description: |
-Bill Nelson Seed Co. is located in Greenville, North Carolina and is targeted towards farmers who are interested in sustainable agriculture. The farmers who purchase our products are interested in sustainable farming starting with their most important product, seeds. Bill Nelson Seed Co. aims to make the best
-product, cause no unnecessary harm to the environment, and perhaps inspire farmers to think of solutions to the environmental crisis.
+  Bill Nelson Seed Co. is located in Greenville, North Carolina and is targeted towards farmers who are interested in sustainable agriculture. The farmers who purchase our products are interested in sustainable farming starting with their most important product, seeds. Bill Nelson Seed Co. aims to make the best product, cause no unnecessary harm to the environment, and perhaps inspire farmers to think of solutions to the environmental crisis.
 
 page_sections:
 - section: nelson-cards
