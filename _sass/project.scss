@@ -4,16 +4,6 @@
    grid-template-columns: 1fr;
 }
 
-.block {
-   /*max-height: unset;*/
-   /*min-height: unset;*/
-
-   @media (min-width: 32em) {
-      height: 100vh;
-      /*max-height: unset;*/
-   }
-}
-
 .span-half, .span-full {
    grid-column-end: span 1;
 }
@@ -43,7 +33,11 @@
 
    .text-area {
       padding: 1em;
-      font-size: 4.5em;
+      font-size: 1.5em;
+
+      @media (min-width: 32em) {
+         font-size: 2.5em;
+      }
 
       .description {
         padding-bottom: 1em;

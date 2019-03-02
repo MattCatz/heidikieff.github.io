@@ -20,21 +20,17 @@
 #bio {
    padding: 1em;
 
-   p {
-      font-size: 2em;
-   }
-
    @media (min-width: 32em) {
       max-width: 75%;
       padding: 0em 1em 0em 0em;
+
+      p {
+        font-size: 1.2em;
+      }
    }
 
    .extra-space {
       margin-bottom: 2em;
-   }
-
-   h1::after {
-      content: " \23AF\23AF\23AF";
    }
 }
 
@@ -84,4 +80,5 @@
 
 .copyright {
    height: 6em;
+   font-size: 0.8em;
 }
