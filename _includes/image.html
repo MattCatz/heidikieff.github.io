@@ -6,7 +6,10 @@
 {% endif %}
 
 {% if include.img contains "img" %}
-	<img class="{{classes}} {{include.class}}" src="/assets/img/medium/{{ img.last }}">
+	<picture class="{{include.class}} centered">
+		<source type="image/webp" srcset="/assets/img/webp/{{ img.last }}"> 
+		<img class="{{classes}}" src="/assets/img/medium/{{ img.last }}">
+	</picture>
 {% else %}	
 	<img class="{{classes}} {{include.class}}" src="{{ include.img }}">
 {% endif %}
