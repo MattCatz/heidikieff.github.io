@@ -8,29 +8,14 @@ img {
 
 body {
    margin: 0px;
-   font-family: "futura-pt",sans-serif;
+   font-family: "adobe-caslon-pro",serif;
+   font-weight: 400;
+   font-style: italic;
 }
 
 a {
 	color: black;
 	text-decoration: none;
-}
-
-.courier-new {
-   font-family: "Courier New", sans-serif;
-   font-weight: normal;
-}
-
-.lemon {
-  color: $lemon;
-}
-
-.white {
-   color: white;
-}
-
-.lemon-bg {
-   background: $lemon;
 }
 
 .grid-warning {
@@ -61,4 +46,3 @@ a {
 @import "nelson";
 @import "deluxe";
 @import "sundance";
-
