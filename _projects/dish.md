@@ -5,6 +5,7 @@ src: "/assets/svg/"
 thumbnail: "dish-logo.svg"
 background: "/assets/img/dish-header.jpg"
 banner: "/assets/svg/dish-logo.svg"
+banner-bg: "/assets/img/dish-header.jpg"
 awards:
 description: |
   The Dish is a quarterly American magazine where food and culture connect. We believe in authenticity and transparency in the kitchen, both in the food and the great people making it. Dish cares about diversity and the meals that bring us together. The publication targets both male and females ranging from early 20’s (readers who have sparked an interest in cooking) to late 40’s (readers who have experience with cooking, but want to keep in touch with whats new). Run The Dish seeks to take an authentic approach to every day cooking. 

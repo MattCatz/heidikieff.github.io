@@ -1,8 +1,8 @@
 <section id="{{section.section}}" class="block span-full default-grid {{section.class}}">
   <div id="{{section.section}}-col-1" class="half-col">
-  	<img class="{{id.last}}-img project-img" src="{{ section.img-1 }}">
+  	{% include image.html img=section.img-1 %}
   </div>
   <div id="{{section.section}}-col-2" class="half-col">
-  	<img class="{{id.last}}-img project-img" src="{{ section.img-2 }}">
+  	{% include image.html img=section.img-2 %}
   </div>
 </section>

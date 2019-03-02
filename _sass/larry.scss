@@ -3,11 +3,7 @@ $larry-secondary: #F6F9F2;
 
 #lazy-larrys {
   .project-head {
-    background: url("/assets/img/larry-background.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-
-    img {
+    .banner {
       max-width: 60rem;
       object-fit: unset;
     }
