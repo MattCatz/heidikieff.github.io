@@ -3,10 +3,6 @@ layout: about
 
 portrait: "assets/img/me.jpg"
 
-instagram-username: heidikieff_
-github-username: heidikieff
-linkedin-username: heidikieff
-behance-username: heidikieff
 ---
 
 # Howdy
