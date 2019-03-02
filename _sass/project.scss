@@ -43,13 +43,23 @@
 
    .text-area {
       padding: 1em;
+      font-size: 4.5em;
 
-      @media (min-width: 32em) {
-         max-width: 60%;
+      .description {
+        padding-bottom: 1em;
+        font-family: "adobe-caslon-pro",serif;
+        font-weight: 400;
+        font-style: italic;
       }
 
-      @media (min-width: 64em) {
-         max-width: 33%;
+      .type {
+        padding-top: 2em;
+        font-size: 0.8em;
+        font-family: 'IBM Plex Mono', monospace;
+      }
+
+      @media (min-width: 32em) {
+         max-width: 75%;
       }
    }
 

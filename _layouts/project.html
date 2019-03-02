@@ -6,13 +6,18 @@ nav-selection: projects
 {% assign id = page.id | split: "/" %}
 <article id="{{id.last}}" class="default-grid">
    <section class="project-head span-full fill-screen centered">
-      {% include image.html img=page.banner %}
+      {% if page.banner-bg %}
+        {% include image.html class="banner-bg" img=page.banner-bg %}
+      {% endif %}
+
+      {% include image.html class="banner" img=page.banner %}
    </section>
-   <section class="project-description span-full centered">
-      <div class="text-area">
-        <h1>{{page.title}}</h1>
-        <h2>{{page.type}}</h2>
-        {{page.description}}
+   <section class="project-description span-full">
+      <div class="text-area">      
+        {% for paragraph in page.description %}
+          <p class="description">{{paragraph}}</p>
+        {% endfor %}
+        <p class="type">{{page.type}}</p>
         {% if page.awards %}
           <ul class="awards">
             {% for award in page.awards %}
