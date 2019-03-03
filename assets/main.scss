@@ -25,6 +25,12 @@ a {
    color: white;
 }
 
+@media (min-width: 16em) {
+  .block {
+    min-height: 100vh;
+  }
+}
+
 .grid-warning {
    min-height: 3rem;
    padding: 1rem;
