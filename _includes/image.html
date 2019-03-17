@@ -1,6 +1,5 @@
 {% assign id = page.id | split: "/" %}
 {% assign img = include.img | split: "/" %}
-
 {% if page.collection == "projects" %}
 	{% assign classes = id.last | append: "-img project-img "%}
 {% endif %}
@@ -11,8 +10,7 @@
 		<source srcset="/assets/img/medium/{{ img.last }} 1080w, /assets/img/small/{{ img.last }} 800w">
 		<img class="{{classes}}" src="/assets/img/medium/{{ img.last }}">
 	</picture>
-{% else %}	
+{% else %}
 	<img class="{{classes}} {{include.class}}" src="{{ include.img }}">
 {% endif %}
-
 
