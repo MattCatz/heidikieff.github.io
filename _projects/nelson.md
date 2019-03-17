@@ -1,6 +1,6 @@
 ---
 title: "Bill Nelson Seed Co."
-type: "PACKAGE DESIGN"
+type: "BRANDING :: STATIONARY"
 src: "/assets/svg/"
 thumbnail: "nelson-logo.svg"
 background: "/assets/img/nelson-background.jpg"
