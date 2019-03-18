@@ -1,12 +1,20 @@
 $nelson-primary: #0E6C3A;
 
-#nelson-svg, #nelson .project-head {
+#nelson-svg {
 	background-color: $nelson-primary;
 }
 
 #nelson .project-head img {
 	height: unset;
 	width: 30%;
+}
+
+#nelson-svg, #nelson .project-head {
+	overflow: hidden;
+
+	picture img {
+		width: 100%;
+	}
 }
 
 #nelson .project-description {
