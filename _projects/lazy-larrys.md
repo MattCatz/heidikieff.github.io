@@ -7,7 +7,7 @@ banner: "/assets/svg/larry-head.svg"
 banner-bg: "/assets/img/larry-background.jpg"
 awards:
 description: |
-  Lazy Larry’s Seafood Shack is a seafood restaurant and food truck located in Portland, ME that focuses on community and the food we serve them. The primary audience are the folks who hang out by the docks all day working on their boats. 
+  Lazy Larry’s Seafood Shack is a seafood restaurant and food truck located in Portland, ME that focuses on community and the food we serve them. The primary audience are the folks who hang out by the docks all day working on their boats. The owners of Lazy Larry's are Portland natives who pride food and the community it brings over everything. I wanted the branding to really speak to the east coast natives with those gloomy colors. Lazy Larry's is serious about their food, but comical when it comes to everything else. The logo mark is meant to be a crude joke, where Larry is met with his crude fait of being cooked into a delicious stew. He shouldn't of been so lazy!   
 
 page_sections:
 - section: larry-store
