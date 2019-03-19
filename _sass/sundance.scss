@@ -37,3 +37,7 @@ $sundance-primary: black;
     background-color: $sundance-primary;
   }
 }
+
+#sundance-ticket-row-1 .sundance-img {
+ object-fit: unset; 
+}

@@ -13,8 +13,6 @@
 		<source media="(min-width: 1080px)" srcset="/assets/img/medium/{{ img.last }}" />
 		<img class="{{classes}}" src="/assets/img/medium/{{ img.last }}" />
 	</picture>
-{% else %}	
+{% else %}
 	<img class="{{classes}} {{include.class}}" src="{{ include.img }}" />
 {% endif %}
-
-
