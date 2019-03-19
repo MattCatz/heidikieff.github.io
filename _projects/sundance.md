@@ -1,6 +1,6 @@
 ---
 title: "Sundance"
-type: "MAGAZINE DESIGN"
+type: "KINETIC TYPOGRAPHY"
 src: "/assets/svg/"
 thumbnail: "sundance-logo.svg"
 banner: "/assets/svg/sundance-logo.svg"
