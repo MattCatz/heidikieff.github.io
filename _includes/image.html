@@ -7,11 +7,14 @@
 
 {% if include.img contains "img" %}
 	<picture class="{{include.class}} centered">
-		<source type="image/webp" srcset="/assets/img/webp/{{ img.last }}"> 
-		<img class="{{classes}}" src="/assets/img/medium/{{ img.last }}">
+		<source type="image/webp" media="(min-width: 1080px)" srcset="/assets/img/webp/{{ img.last }}" />
+		<source type="image/webp" media="(max-width: 799px)" srcset="/assets/img/webps/{{ img.last }}" />
+		<source media="(max-width: 799px)" srcset="/assets/img/thumbnail/{{ img.last }}" />
+		<source media="(min-width: 1080px)" srcset="/assets/img/medium/{{ img.last }}" />
+		<img class="{{classes}}" src="/assets/img/medium/{{ img.last }}" />
 	</picture>
 {% else %}	
-	<img class="{{classes}} {{include.class}}" src="{{ include.img }}">
+	<img class="{{classes}} {{include.class}}" src="{{ include.img }}" />
 {% endif %}
 
 
