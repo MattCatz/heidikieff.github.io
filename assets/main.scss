@@ -34,6 +34,12 @@ a {
    }
 }
 
+.centered {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
 @import "video";
 @import "type-size";
 @import "header";
