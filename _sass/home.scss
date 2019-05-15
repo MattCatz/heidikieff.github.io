@@ -30,6 +30,16 @@ header, #portfolio {
   }
 }
 
+.lazy {
+	filter: blur(20px);
+  transform: scale(1.1);
+}
+
+.loaded {
+  filter: blur(0px);
+	transition: filter 0.3s;
+}
+
 .project div {
   position: absolute;
   top: 0;

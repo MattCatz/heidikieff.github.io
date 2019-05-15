@@ -5,3 +5,5 @@ _site
 vendor
 Gemfile.lock
 *.swp
+package-lock.json
+node_modules

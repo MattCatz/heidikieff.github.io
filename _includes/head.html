@@ -11,4 +11,42 @@
    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,600" rel="stylesheet">
    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
    {% include favicon.html %}
+   <script type="text/javascript">
+     document.addEventListener("DOMContentLoaded", function(event) {
+        var lazySources =[].slice.call(
+         document.querySelectorAll(".lazy > source")
+        )
+
+        var lazyImages = [].slice.call(
+          document.querySelectorAll('.lazy > img')
+        )
+
+        if ("IntersectionObserver" in window) {
+           let lazyImageObserver =
+            new IntersectionObserver(function(entries, observer) {
+               entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                   let lazyImage = entry.target;
+                   lazyImage.srcset = lazyImage.dataset.srcset;
+                   lazyImageObserver.unobserve(lazyImage);
+                 }
+              });
+             });
+
+           lazySources.forEach(function(lazyImage) {
+            lazyImageObserver.observe(lazyImage);
+           });
+
+           lazyImages.forEach(function(lazyImage) {lazyImage.onload = function(){
+                                lazyImage.parentElement.classList.remove("lazy");
+                                lazyImage.parentElement.classList.add("loaded");
+                                console.log('done')}});
+        } else {
+          // Not supported, load all images immediately
+         lazySources.forEach(function(image){
+             image.nextElementSibling.src = image.nextElementSibling.dataset.srcset;
+           });
+         }
+       });
+   </script>
 </head>

@@ -1,17 +1,19 @@
 {% assign id = page.id | split: "/" %}
 {% assign img = include.img | split: "/" %}
+{% assign name = img.last | split: "." %}
 
 {% if page.collection == "projects" %}
 	{% assign classes = id.last | append: "-img project-img "%}
 {% endif %}
 
 {% if include.img contains "img" %}
-	<picture class="{{include.class}} centered">
-		<source type="image/webp" media="(min-width: 1080px)" srcset="/assets/img/webp/{{ img.last }}" />
-		<source type="image/webp" media="(max-width: 799px)" srcset="/assets/img/webps/{{ img.last }}" />
-		<source media="(max-width: 799px)" srcset="/assets/img/thumbnail/{{ img.last }}" />
-		<source media="(min-width: 1080px)" srcset="/assets/img/medium/{{ img.last }}" />
-		<img class="{{classes}}" src="/assets/img/medium/{{ img.last }}" />
+	<picture class="{{include.class}} lazy centered">
+		<source type="image/webp" media="(min-width: 1080px)" data-srcset="/assets/img/{{ name.first }}-medium.webp" />
+		<source type="image/webp" media="(max-width: 799px)" data-srcset="/assets/img/{{ name.first }}-thumbnail.webp" />
+		<source media="(max-width: 799px)" data-srcset="/assets/img/{{ name.first }}-thumbnail.{{name.last}}" />
+		<source media="(min-width: 1080px)" data-srcset="/assets/img/{{ name.first }}-medium.{{name.last}}" />
+		<!-- <img class="{{classes}}" src="/assets/img/medium/{{ img.last }}" /> -->
+		<img class="{{classes}} fade-in" src="/assets/placeholders/{{name.first}}.svg" />
 	</picture>
 {% else %}
 	<img class="{{classes}} {{include.class}}" src="{{ include.img }}" />

@@ -5,7 +5,8 @@ nav-selection: about
 ---
 <article class="about-grid default-grid">
    <div class="span-half">
-      <img id="portrait" src="{{page.portrait}}">
+      <!-- <img id="portrait" src="{{page.portrait}}"> -->
+      {% include image.html class="portrait" img=page.portrait %}
    </div>
    <div id="bio" class="span-half">
       {{ content }}
