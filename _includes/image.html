@@ -12,8 +12,7 @@
 		<source type="image/webp" media="(max-width: 799px)" data-srcset="/assets/img/{{ name.first }}-thumbnail.webp" />
 		<source media="(max-width: 799px)" data-srcset="/assets/img/{{ name.first }}-thumbnail.{{name.last}}" />
 		<source media="(min-width: 1080px)" data-srcset="/assets/img/{{ name.first }}-medium.{{name.last}}" />
-		<!-- <img class="{{classes}}" src="/assets/img/medium/{{ img.last }}" /> -->
-		<img class="{{classes}} fade-in" src="/assets/placeholders/{{name.first}}.svg" />
+		<img class="{{classes}} fade-in" src="/assets/placeholders/{{name.first}}.svg" data-srcset="/assets/img/{{ name.first }}-medium.{{name.last}}"/>
 	</picture>
 {% else %}
 	<img class="{{classes}} {{include.class}}" src="{{ include.img }}" />
