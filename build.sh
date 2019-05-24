@@ -6,6 +6,7 @@ function get_primitive() {
 
 { 
 	get_primitive
+	npm install
 	gulp
 	bundle exec jekyll build
 } 2>&1
