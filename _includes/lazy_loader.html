@@ -1,0 +1,23 @@
+<script type="text/javascript">
+function lazy_loader(event) {
+	var lazyPictures = [].slice.call(document.querySelectorAll('picture .lazy'));
+
+	if ("IntersectionObserver" in window) {
+		let lazyPictureObserver = new IntersectionObserver((entries, _) => {
+			entries.forEach(entry => {
+				if (entry.isIntersecting) {
+					let lazyPic = entry.target;
+                        		lazyPic.childNodes.forEach(img => img.srcset = img.dataset.srcset);
+                        		lazyImageObserver.unobserve(lazyImage);
+				} 
+			});
+		});
+	} else {
+		// Not supported, load all images immediately
+                lazyPictures.forEach(picture => picture.childNodes.forEach(image => image.src = image.dataset.srcset;));
+	}
+}
+
+document.addEventListner("DOMContentLoaded", lazy_loader)
+</script>
+
