@@ -1,23 +1,26 @@
-<script type="text/javascript">
 function lazy_loader(event) {
-	var lazyPictures = [].slice.call(document.querySelectorAll('picture .lazy'));
-
+	var lazyPictures = [].slice.call(document.querySelectorAll('picture.lazy'));
+lazyPictures.forEach(pic => console.log(pic.children));
 	if ("IntersectionObserver" in window) {
 		let lazyPictureObserver = new IntersectionObserver((entries, _) => {
 			entries.forEach(entry => {
 				if (entry.isIntersecting) {
 					let lazyPic = entry.target;
-                        		lazyPic.childNodes.forEach(img => img.srcset = img.dataset.srcset);
-                        		lazyImageObserver.unobserve(lazyImage);
+					for (let img of lazyPic.children) {
+						img.srcset = img.dataset.srcset;
+					}
+					lazyPic.classList.remove("lazy");
+					lazyPic.classList.add("loaded");
+                        		lazyPictureObserver.unobserve(lazyPic);
 				} 
 			});
 		});
+		lazyPictures.forEach((lazyImage) => lazyPictureObserver.observe(lazyImage));
 	} else {
 		// Not supported, load all images immediately
-                lazyPictures.forEach(picture => picture.childNodes.forEach(image => image.src = image.dataset.srcset;));
+                lazyPictures.forEach((picture) => picture.childNodes.forEach((image) => image.src = image.dataset.srcset));
 	}
 }
 
-document.addEventListner("DOMContentLoaded", lazy_loader)
-</script>
+document.addEventListener("DOMContentLoaded", lazy_loader);
 
