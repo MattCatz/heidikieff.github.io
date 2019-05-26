@@ -1,41 +1,23 @@
 <script type="text/javascript">
-document.addEventListener("DOMContentLoaded", function(event) {
-		var lazySources =[].slice.call(
-			document.querySelectorAll(".lazy > source")
-			)
+function lazy_loader(event) {
+	var lazyPictures = [].slice.call(document.querySelectorAll('picture .lazy'));
 
-		var lazyImages = [].slice.call(
-			document.querySelectorAll('.lazy > img')
-			)
-
-		if ("IntersectionObserver" in window) {
-		let lazyImageObserver =
-		new IntersectionObserver(function(entries, observer) {
-			entries.forEach(function(entry) {
+	if ("IntersectionObserver" in window) {
+		let lazyPictureObserver = new IntersectionObserver((entries, _) => {
+			entries.forEach(entry => {
 				if (entry.isIntersecting) {
-				let lazyImage = entry.target;
-				lazyImage.srcset = lazyImage.dataset.srcset;
-				lazyImageObserver.unobserve(lazyImage);
-				}
-				});
+					let lazyPic = entry.target;
+                        		lazyPic.childNodes.forEach(img => img.srcset = img.dataset.srcset);
+                        		lazyImageObserver.unobserve(lazyImage);
+				} 
 			});
-
-lazySources.forEach(function(lazyImage) {
-		lazyImageObserver.observe(lazyImage);
 		});
+	} else {
+		// Not supported, load all images immediately
+                lazyPictures.forEach(picture => picture.childNodes.forEach(image => image.src = image.dataset.srcset;));
+	}
+}
 
-lazyImages.forEach(function(lazyImage) {lazyImage.onload = function(){
-		if (lazyImage.currentSource != lazyImage.src ){
-		lazyImage.parentElement.classList.remove("lazy");
-		lazyImage.parentElement.classList.add("loaded");
-		}
-		console.log('done')}});
-		} else {
-			// Not supported, load all images immediately
-			lazyImages.forEach(function(image){
-					image.src = image.dataset.srcset;
-					});
-		}
-});
+document.addEventListner("DOMContentLoaded", lazy_loader)
 </script>
 
