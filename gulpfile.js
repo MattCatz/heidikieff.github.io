@@ -1,5 +1,5 @@
+const path = require('path');
 const { parallel, src, dest } = require('gulp');
-const gulpMultiProcess = require('gulp-multi-process');
 const responsive = require('gulp-responsive');
 const changed = require('gulp-changed');
 const sqip = require('gulp-sqip');
@@ -43,29 +43,39 @@ const sqip_config = {
   numberOfPrimitives: 15,
 }
 
-function clean(callback) {
-  callback();
+function transform_path(new_path) {
+  const extension = path.extname(new_path);
+  const dirname = path.dirname(new_path);
+  const basename = path.basename(new_path, extension);
+  const file_name = basename + '-medium' + extension;
+  return path.join(dirname, file_name);
 }
 
 function resize_png() {
+  const DEST = '_site/assets/img/';
   return src('assets/img/*.png')
+    .pipe(changed(DEST,{extension:'.png', transformPath: transform_path}))
     .pipe(responsive(img_sizes, responsive_options))
     .pipe(dest('_site/assets/img/'));
 }
 
 function resize_jpg() {
+  const DEST = '_site/assets/img/';
   return src('assets/img/*.jpg')
+    .pipe(changed(DEST,{extension:'.jpeg', transformPath: transform_path}))
     .pipe(responsive(img_sizes, responsive_options))
     .pipe(dest('_site/assets/img/'));
 }
 
 function convert_webp() {
+  const DEST = '_site/assets/img/';
   return src('assets/img/*.{jpg,png}')
+    .pipe(changed(DEST,{extension:'.webp', transformPath: transform_path}))
     .pipe(responsive(webp_sizes, responsive_options))
     .pipe(dest('_site/assets/img/'));
 }
 
-function generate_placeholders() {
+function generate_placeholders_PNG() {
   const DEST = '_site/assets/placeholders/';
   return src('assets/img/*.png')
     .pipe(changed(DEST,{extension:'.svg'}))
@@ -74,7 +84,7 @@ function generate_placeholders() {
     .pipe(dest(DEST));
 }
 
-function generate_placeholders_J() {
+function generate_placeholders_JPEG() {
   const DEST = '_site/assets/placeholders/';
   return src('assets/img/*.jpg')
     .pipe(changed(DEST,{extension:'.svg'}))
@@ -83,19 +93,15 @@ function generate_placeholders_J() {
     .pipe(dest(DEST));
 }
 
-function multi_task(cb) {
-  return gulpMultiProcess(['generate_placeholders','generate_placeholders_J'],cb)
-}
+const resize_pictures = parallel(resize_png, resize_jpg);
+const convert_pictures = convert_webp;
+const generate_placeholders = parallel(generate_placeholders_PNG,generate_placeholders_JPEG);
 
-exports.resize_png = resize_png
-exports.resize_jpg = resize_jpg
-exports.convert_webp = convert_webp
-exports.generate_placeholders = generate_placeholders
-exports.generate_placeholders_J = generate_placeholders_J
+exports.resize_pictures = resize_pictures;
+exports.convert_pictures = convert_pictures;
+exports.generate_placeholders = generate_placeholders;
 
-exports.resizes = parallel(resize_png, resize_jpg, convert_webp)
+exports.test = resize_png;
 
-// exports.default = parallel(generate_placeholders, resize_png, resize_jpg, convert_webp)
-exports.placeholders = generate_placeholders;
+exports.default = parallel(resize_pictures, convert_pictures, generate_placeholders);
 
-exports.default = parallel(resize_png, resize_jpg, convert_webp,multi_task)
