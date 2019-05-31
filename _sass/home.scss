@@ -31,13 +31,17 @@ header, #portfolio {
 }
 
 .lazy {
-	filter: blur(20px);
+  filter: blur(20px);
   transform: scale(1.1);
 }
 
 .loaded {
   filter: blur(0px);
-	transition: filter 0.3s;
+  transition: filter 0.3s;
+}
+
+.lazy img {
+width:100%;
 }
 
 .project div {

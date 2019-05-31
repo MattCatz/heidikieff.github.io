@@ -1,6 +1,6 @@
 function lazy_loader(event) {
 	var lazyPictures = [].slice.call(document.querySelectorAll('picture.lazy'));
-lazyPictures.forEach(pic => console.log(pic.children));
+
 	if ("IntersectionObserver" in window) {
 		let lazyPictureObserver = new IntersectionObserver((entries, _) => {
 			entries.forEach(entry => {
@@ -11,11 +11,13 @@ lazyPictures.forEach(pic => console.log(pic.children));
 					}
 					lazyPic.classList.remove("lazy");
 					lazyPic.classList.add("loaded");
-                        		lazyPictureObserver.unobserve(lazyPic);
-				} 
+               lazyPictureObserver.unobserve(lazyPic);
+				}
 			});
 		});
+		
 		lazyPictures.forEach((lazyImage) => lazyPictureObserver.observe(lazyImage));
+		
 	} else {
 		// Not supported, load all images immediately
                 lazyPictures.forEach((picture) => picture.childNodes.forEach((image) => image.src = image.dataset.srcset));
