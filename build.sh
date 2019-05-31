@@ -5,7 +5,7 @@ function get_primitive() {
 }
 
 { 
-	get_primitive &
+	get_primitive
 	npm install
 	./node_modules/gulp/bin/gulp.js
 	bundle exec jekyll build
