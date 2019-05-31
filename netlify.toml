@@ -1,11 +1,11 @@
 [build]
    command = "bundle exec jekyll build"
-   publish = "_site"
+   publish = "_site/"
 
-#[context.build.environment]
-#    GIT_LFS_ENABLED = 1
-#    RUBY_VERSION = 2.6.2
-#    NODE_VERSION = 8.16.0
+[context.build.environment]
+   GIT_LFS_ENABLED = 1
+   RUBY_VERSION = 2.6.2
+   NODE_VERSION = 8.16.0
 
 # [context.lazy]
 #    command = "source ./build.sh"
