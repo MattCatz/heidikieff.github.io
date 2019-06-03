@@ -61,7 +61,7 @@ function resize_png() {
 
 function resize_jpg() {
   const DEST = '_site/assets/img/';
-  return src('assets/img/*.jpg')
+  return src('assets/img/*.jpeg')
     .pipe(changed(DEST,{extension:'.jpeg', transformPath: transform_path}))
     .pipe(responsive(img_sizes, responsive_options))
     .pipe(dest('_site/assets/img/'));
@@ -69,7 +69,7 @@ function resize_jpg() {
 
 function convert_webp() {
   const DEST = '_site/assets/img/';
-  return src('assets/img/*.{jpg,png}')
+  return src('assets/img/*.{jpeg,png}')
     .pipe(changed(DEST,{extension:'.webp', transformPath: transform_path}))
     .pipe(responsive(webp_sizes, responsive_options))
     .pipe(dest('_site/assets/img/'));
@@ -86,7 +86,7 @@ function generate_placeholders_PNG() {
 
 function generate_placeholders_JPEG() {
   const DEST = '_site/assets/placeholders/';
-  return src('assets/img/*.jpg')
+  return src('assets/img/*.jpeg')
     .pipe(changed(DEST,{extension:'.svg'}))
     .pipe(responsive({'*':{width:128}}, responsive_options))
     .pipe(sqip(sqip_config))
