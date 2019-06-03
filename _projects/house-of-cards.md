@@ -19,7 +19,7 @@ page_sections:
 - section: modula-lady
   block: one-column-media
   class: "span-full fill-sm-screen centered"
-  col-1: <img class="modula-picture" src="/assets/img/modula-lady.jpg">
+  col-1: <img class="modula-picture" src="/assets/img/modula-lady.jpeg">
 - section: modula-svg
   block: one-column-media
   class: "span-half fill-screen centered"
@@ -27,7 +27,7 @@ page_sections:
 - section: modula-half
   block: one-column-media
   class: "span-half fill-screen"
-  col-1: <img class="modula-picture" src="/assets/img/modula-half.jpg">
+  col-1: <img class="modula-picture" src="/assets/img/modula-half.jpeg">
 - section: modula-app
   block: flexbox-media
   class: "fill-screen span-full centered"
@@ -39,7 +39,7 @@ page_sections:
 - section: modula-full
   block: one-column-media
   class: "fill-screen span-full"
-  col-1: <img class="modula-picture" src="/assets/img/modula.jpg">
+  col-1: <img class="modula-picture" src="/assets/img/modula.jpeg">
 
 listed: "no"
 

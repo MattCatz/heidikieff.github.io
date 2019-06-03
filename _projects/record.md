@@ -1,8 +1,8 @@
 ---
 title: "RECORD PROMOTION"
 type: "PACKAGING DESIGN"
-thumbnail: "record-thumbnail.jpg"
-banner: "/assets/img/record-front.jpg"
+thumbnail: "record-thumbnail.jpeg"
+banner: "/assets/img/record-front.jpeg"
 awards:
   - Auburn University Graphic Design Juried Show (2018)
 description: |
@@ -19,23 +19,23 @@ page_sections:
 - section: record-back
   block: one-column-media
   class: "span-full fill-sm-screen centered"
-  col-1: <img class="record-mockup" src="/assets/img/record-back.jpg">
+  col-1: <img class="record-mockup" src="/assets/img/record-back.jpeg">
 - section: record-front-back
   block: one-column-media
   class: "span-full fill-sm-screen centered"
-  col-1: <img class="record-mockup" src="/assets/img/record-front-back.jpg">
+  col-1: <img class="record-mockup" src="/assets/img/record-front-back.jpeg">
 - section: record-tickets
   block: one-column-media
   class: "span-full fill-sm-screen centered"
-  col-1: <img class="record-picture" src="/assets/img/record-tickets.jpg">
+  col-1: <img class="record-picture" src="/assets/img/record-tickets.jpeg">
 - section: record-sleeve
   block: one-column-media
   class: "span-full fill-sm-screen centered"
-  col-1: <img class="record-picture" src="/assets/img/record-sleeve.jpg">
+  col-1: <img class="record-picture" src="/assets/img/record-sleeve.jpeg">
 - section: record-come-a-little-closer
   block: one-column-media
   class: "span-full fill-sm-screen centered"
-  col-1: <img class="record-picture" src="/assets/img/record-come-a-little-closer.jpg">
+  col-1: <img class="record-picture" src="/assets/img/record-come-a-little-closer.jpeg">
 
 listed: "no"
 

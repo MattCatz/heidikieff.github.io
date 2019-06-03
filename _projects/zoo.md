@@ -1,7 +1,7 @@
 ---
 title: "BIRMINGHAM 60TH ANNIVERSARY ZOO POSTER"
 thumbnail: "zoo-thumbnail.small.png"
-banner: "/assets/img/zoo-poster-mockup.jpg"
+banner: "/assets/img/zoo-poster-mockup.jpeg"
 awards:
   - Auburn University Graphic Design Juried Show (2017)
 description: |

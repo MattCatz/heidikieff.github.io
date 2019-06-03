@@ -12,11 +12,11 @@ page_sections:
 - section: sundance-ticket
   block: two-row-one-column-media
   img-1: "/assets/svg/sundance-ticket.svg"
-  img-2: "/assets/img/sundance-theater.jpg"
+  img-2: "/assets/img/sundance-theater.jpeg"
 - section: sundance-merch
   block: one-row-two-column-media
-  img-1: "/assets/img/sundance-id-card.jpg"
-  img-2: "/assets/img/sundance-tote.jpg"
+  img-1: "/assets/img/sundance-id-card.jpeg"
+  img-2: "/assets/img/sundance-tote.jpeg"
 - section: sundance-trailer
   block: one-column-media
   class: "span-full centered"

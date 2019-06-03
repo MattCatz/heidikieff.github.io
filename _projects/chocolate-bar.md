@@ -33,11 +33,11 @@ page_sections:
 - section: chocolate-bar-fortune
   block: one-column-media
   class: "span-full fill-screen centered"
-  col-1: <img class="chocolate-bar-img" src="/assets/img/fortune.jpg">
+  col-1: <img class="chocolate-bar-img" src="/assets/img/fortune.jpeg">
 - section: chocolate-bar-fortune
   block: one-column-media
   class: "span-full fill-screen centered"
-  col-1: <img class="chocolate-bar-img" src="/assets/img/stacked-bars.jpg">
+  col-1: <img class="chocolate-bar-img" src="/assets/img/stacked-bars.jpeg">
 
 listed: "no"
 
