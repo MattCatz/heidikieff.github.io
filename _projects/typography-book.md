@@ -17,31 +17,31 @@ page_sections:
 - section: type-book-cover
   block: one-column-media
   class: "span-full fill-sm-screen centered"
-  col-1: <img src="/assets/img/type-book-cover.jpg">
+  col-1: <img src="/assets/img/type-book-cover.jpeg">
 - section: type-book-2
   block: one-column-media
   class: "span-full fill-sm-screen centered"
-  col-1: <img class="type-book-mockup" src="/assets/img/type-book-2.jpg">
+  col-1: <img class="type-book-mockup" src="/assets/img/type-book-2.jpeg">
 - section: type-book-4
   block: one-column-media
   class: "span-full fill-sm-screen centered"
-  col-1: <img class="type-book-mockup" src="/assets/img/type-book-4.jpg">
+  col-1: <img class="type-book-mockup" src="/assets/img/type-book-4.jpeg">
 - section: type-book-6
   block: one-column-media
   class: "span-full fill-sm-screen centered"
-  col-1: <img class="type-book-mockup" src="/assets/img/type-book-6.jpg">
+  col-1: <img class="type-book-mockup" src="/assets/img/type-book-6.jpeg">
 - section: type-book-8
   block: one-column-media
   class: "span-full fill-sm-screen centered"
-  col-1: <img class="type-book-mockup" src="/assets/img/type-book-8.jpg">
+  col-1: <img class="type-book-mockup" src="/assets/img/type-book-8.jpeg">
 - section: type-book-10
   block: one-column-media
   class: "span-full fill-sm-screen centered"
-  col-1: <img class="type-book-mockup" src="/assets/img/type-book-10.jpg">
+  col-1: <img class="type-book-mockup" src="/assets/img/type-book-10.jpeg">
 - section: type-book-12
   block: one-column-media
   class: "span-full fill-sm-screen centered"
-  col-1: <img class="type-book-mockup" src="/assets/img/type-book-12.jpg">
+  col-1: <img class="type-book-mockup" src="/assets/img/type-book-12.jpeg">
 
 listed: "no"
   

@@ -1,7 +1,7 @@
 ---
 layout: about
 
-portrait: "assets/img/me.jpg"
+portrait: "assets/img/me.jpeg"
 
 ---
 
