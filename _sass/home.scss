@@ -21,7 +21,7 @@ header, #portfolio {
 .construction {
   height: 40vh;
    
-   @medis (min-width: 30em) {
+   @media (min-width: 30em) {
     height: 84vh;  
    }
 }
