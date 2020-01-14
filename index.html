@@ -1,25 +1,12 @@
----
-layout: default
----
-
-<div id="portfolio">
-   {% for i in site.projects %}
-   {% if i.listed == "no" %}
-      {% continue %}
-   {% else %}
-     {% assign id = i.id | split: "/" %}
-     <div class="project {{id.last}}">
-        <a href="{{i.url}}" class="centered">
-          {% if i.background %}
-            {% include image.html class="thumbnail-bg" img=i.background %}
-          {% endif %}
-          {% assign thumbnail = i.src | append: i.thumbnail %}
-          {% include image.html class="thumbnail" img=thumbnail %}
-           <div class="white">
-             <h3>{{i.title}}</h3>
-           </div>
-        </a>
-     </div>
-   {% endif %}
-   {% endfor %}
-</div>
+<!DOCTYPE html>
+<html lang="en-US">
+   {% include head.html %}
+      <div class="grid-warning lemon-bg white centered">
+         Hey! It looks like your browser does not support CSS Grids. Most of the layout of this website relies on that feature set so if something looks funny that is probably why.
+      </div>
+      <div class="project-head span-full fill-screen centered">
+         <img src="heidikieff.com/assets/img/website-under-construction.png" />
+      </div>
+      {% include footer.html %}
+   </body>
+</html>
