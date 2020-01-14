@@ -103,14 +103,14 @@ function get_from_cache() {
 }
 
 const resize_pictures = parallel(resize_png, resize_jpg);
-const convert_pictures = convert_webp;
-const generate_placeholders = series(parallel(generate_placeholders_PNG,generate_placeholders_JPEG), get_from_cache);
+//const convert_pictures = convert_webp;
+//const generate_placeholders = series(parallel(generate_placeholders_PNG,generate_placeholders_JPEG), get_from_cache);
 
 exports.resize_pictures = resize_pictures;
-exports.convert_pictures = convert_pictures;
-exports.generate_placeholders = generate_placeholders;
+//exports.convert_pictures = convert_pictures;
+//exports.generate_placeholders = generate_placeholders;
 
 exports.test = resize_png;
 
-exports.default = parallel(resize_pictures, convert_pictures, generate_placeholders);
+exports.default = resize_pictures;//parallel(resize_pictures, convert_pictures, generate_placeholders);
 

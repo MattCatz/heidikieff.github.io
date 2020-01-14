@@ -18,6 +18,14 @@ header, #portfolio {
    }
 }
 
+.construction {
+  height: 40vh;
+   
+   @media (min-width: 30em) {
+    height: 84vh;  
+   }
+}
+
 .project {
   position: relative;
   width: 100%;
